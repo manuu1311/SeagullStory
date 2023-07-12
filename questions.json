@@ -1,0 +1,17 @@
+[
+ {
+  "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged.",
+  "question": "bob and tom are friends",
+  "answer": 0
+ },
+ {
+  "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged.",
+  "question": "bob was married",
+  "answer": 0
+ },
+ {
+  "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged.",
+  "question": "bob killed himselft because of a religious belief",
+  "answer": 1
+ }
+]
