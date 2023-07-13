@@ -628,5 +628,47 @@
   "answer": 1,
   "contest": 2,
   "idx": 89
+ },
+ {
+  "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knowsbob would suicide. bob does not know lucy is dead",
+  "question": "bob did not have enough money to pay the restaurant",
+  "answer": 1,
+  "contest": 2,
+  "idx": 90
+ },
+ {
+  "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+  "question": "bob has economic issues",
+  "answer": 1,
+  "contest": 1,
+  "idx": 91
+ },
+ {
+  "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+  "question": "tom has economic issues",
+  "answer": 1,
+  "contest": 1,
+  "idx": 92
+ },
+ {
+  "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+  "question": "the two friends have economic issues",
+  "answer": 1,
+  "contest": 1,
+  "idx": 93
+ },
+ {
+  "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+  "question": "the two friends are psychos",
+  "answer": 1,
+  "contest": 1,
+  "idx": 94
+ },
+ {
+  "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+  "question": "the two friends are sociopaths",
+  "answer": 1,
+  "contest": 1,
+  "idx": 95
  }
 ]
