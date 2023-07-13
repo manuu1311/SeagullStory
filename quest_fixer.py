@@ -13,8 +13,7 @@ def change_label(old,new,x):
 #for elem in dataset:
 #    change_label(6,5,elem)
 
-
-print(dataset[:]['answer'].count(0))
+for x in dataset: change_label(5,4,x)
 
 with open("questions.json","w") as f:
     dataset=json.dump(dataset,f,indent=2)
