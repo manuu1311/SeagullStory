@@ -1,15 +1,16 @@
 import json
 
 
-def add_to_json(contest,question,label,dict,num):
+def add_to_json(passage,question,label,contest):
     data_ins={
-    'passage': contest,
+    'passage': passage,
     'question': question,
     'answer': label,
-    'contest': num,
-    'idx' : len(dict)
+    'contest': contest,
+    'idx' : len(ent_dataset)+len(not_ent_dataset)
     }
-    dict.append(data_ins)
+    if(data_ins['answer'])==0: ent_dataset.append(data_ins)
+    else: not_ent_dataset.append(data_ins)
 
 def save_json(dataset,path):
     with open(path,'w') as f:
@@ -47,10 +48,12 @@ bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by
 
 
 
-path='questions.json'
-
-with open(path, 'r') as file:
-    dataset = json.load(file)
+entail_path='entail_questions.json'
+not_entail_path='not_entail_questions.json'
+with open(entail_path, 'r') as file:
+    ent_dataset = json.load(file)
+with open(not_entail_path, 'r') as file:
+    not_ent_dataset = json.load(file)
 
 while(True):
     num=input("Choose what you want to do!\n"
@@ -59,7 +62,8 @@ while(True):
     try: num=int(num)
     except: continue
     if num==0:
-        save_json(dataset,path)
+        save_json(ent_dataset,entail_path)
+        save_json(not_ent_dataset,not_entail_path)
         print("Correctly saved. Closing")
         exit()
     elif num==1:
@@ -78,4 +82,4 @@ while(True):
     if(label!=0 and label!=1):
         print("coglione")
         continue
-    add_to_json(passage,question,label,dataset,num)
+    add_to_json(passage,question,label,num)
