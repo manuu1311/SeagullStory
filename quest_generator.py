@@ -27,7 +27,7 @@ the story is completely plausible.
 piercontest="""
 Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. 
 They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.
-Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows
+Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows 
 bob would suicide. bob does not know lucy is dead
 """.replace("\n","")
 

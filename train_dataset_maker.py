@@ -16,7 +16,7 @@ for i in range(7):
     else:
         trainset.extend(ent[:truecont])
         trainset.extend(not_ent[:truecont])
-        validset.extend(ent[truecont:falsecont])
+        validset.extend(not_ent[truecont:falsecont])
 
     ent[:truecont]=[]
     not_ent[:falsecont]=[]
