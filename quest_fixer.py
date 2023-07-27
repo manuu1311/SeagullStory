@@ -1,16 +1,5 @@
-import json
-
-with open("entail_questions.json","r") as f:
-    ent_dataset=json.load(f)
-with open("not_entail_questions.json","r") as f:
-    not_ent_dataset=json.load(f)
-
-def change_contest(new_contest, num, x):
-    if x['contest']==num: x['passage']=new_contest
-
-def change_label(old,new,x):
-    if x['contest']==old: x['contest']=new
-
+import utils
+ent_dataset,not_ent_dataset=utils.get_train()
 
 #for elem in dataset:
 #    change_label(6,5,elem)
@@ -21,12 +10,25 @@ Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom
 bob would suicide. bob does not know lucy is dead
 """.replace("\n","")
 
-for x in ent_dataset: change_contest(contest,2,x)
-print(len(contest.split()))
+"""
+not_ent_dataset=sorted(not_ent_dataset, key=lambda x: x['contest'])
+
+
 with open("entail_questions.json","w") as f:
     dataset=json.dump(ent_dataset,f,indent=2)
 with open("not_entail_questions.json","w") as f:
     dataset=json.dump(not_ent_dataset,f,indent=2)
+"""
 
-print(len(ent_dataset),len(not_ent_dataset))
+def getinfo(dataset,contest,answer):
+    for _ in range(7):
+        incont = len(list(filter(lambda x : x['contest']==contest and x['answer']==answer,dataset)))
+    return incont
+
+
+print(f'Contest\tTrue\tFalse')
+for i in range(7):
+    true_incont=getinfo(ent_dataset,i+1,0)
+    false_incont=getinfo(ent_dataset,i+1,1)
+    print(f'  {i+1}  \t {true_incont} \t {false_incont} ')
 
