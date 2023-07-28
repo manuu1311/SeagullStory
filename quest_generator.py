@@ -12,9 +12,6 @@ def add_to_json(passage,question,label,contest):
     if(data_ins['answer'])==0: ent_dataset.append(data_ins)
     else: not_ent_dataset.append(data_ins)
 
-def save_json(dataset,path):
-    with open(path,'w') as f:
-        json.dump(dataset,f,indent=1)
 
 
 
