@@ -25,8 +25,12 @@ def getinfo(dataset,contest):
         incont = len(list(filter(lambda x : x['contest']==contest,dataset)))
     return incont
 
-def save_json(dataset,path):
+def save_dataset(dataset,path):
     with open(path,'w') as f:
         json.dump(dataset,f,indent=1)
+
+def order_dataset(dataset):
+     dataset=sorted(dataset, key= lambda x : x['contest'])
+     return dataset
 
 

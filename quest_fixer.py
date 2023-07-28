@@ -1,5 +1,13 @@
 import utils
-ent_dataset,not_ent_dataset=utils.get_train()
+ent_dataset,not_ent_dataset=utils.get_datasets()
+
+def printinfo():
+    print("Contest\tYes\tNo")
+    for i in range(7):
+        yes=utils.getinfo(ent_dataset,i+1)
+        no=utils.getinfo(not_ent_dataset,i+1)
+        print(f'   {i+1}   \t {yes} \t{no}')
+
 
 #for elem in dataset:
 #    change_label(6,5,elem)
@@ -10,25 +18,5 @@ Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom
 bob would suicide. bob does not know lucy is dead
 """.replace("\n","")
 
-"""
-not_ent_dataset=sorted(not_ent_dataset, key=lambda x: x['contest'])
-
-
-with open("entail_questions.json","w") as f:
-    dataset=json.dump(ent_dataset,f,indent=2)
-with open("not_entail_questions.json","w") as f:
-    dataset=json.dump(not_ent_dataset,f,indent=2)
-"""
-
-def getinfo(dataset,contest,answer):
-    for _ in range(7):
-        incont = len(list(filter(lambda x : x['contest']==contest and x['answer']==answer,dataset)))
-    return incont
-
-
-print(f'Contest\tTrue\tFalse')
-for i in range(7):
-    true_incont=getinfo(ent_dataset,i+1,0)
-    false_incont=getinfo(ent_dataset,i+1,1)
-    print(f'  {i+1}  \t {true_incont} \t {false_incont} ')
+printinfo()
 

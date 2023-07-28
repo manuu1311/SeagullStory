@@ -1,4 +1,4 @@
-import json
+import utils
 
 
 def add_to_json(passage,question,label,contest):
@@ -46,24 +46,35 @@ bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by
  the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead
 """.replace("\n","")
 
+boat_discover="""
+bob and tom went on a boat trip
+""".replace("\n","")
+
+island_discover="""
+bob and tom cast away on an island
+""".replace("\n","")
+
+final_discover="""
+bob realized he ate lucy
+""".replace("\n","")
 
 
 entail_path='entail_questions.json'
 not_entail_path='not_entail_questions.json'
-with open(entail_path, 'r') as file:
-    ent_dataset = json.load(file)
-with open(not_entail_path, 'r') as file:
-    not_ent_dataset = json.load(file)
+ent_dataset,not_ent_dataset = utils.get_datasets()
 
 while(True):
+    checker=True
     num=input("Choose what you want to do!\n"
               "0 :  Save questions to json\n1 :  Add general question\n2 :  Add pier question\n"
               "3 :  Add boat contest\n4 :  Add island question\n")
     try: num=int(num)
     except: continue
     if num==0:
-        save_json(ent_dataset,entail_path)
-        save_json(not_ent_dataset,not_entail_path)
+        ent_dataset=utils.order_dataset(ent_dataset)
+        not_ent_dataset=utils.order_dataset(not_ent_dataset)
+        utils.save_dataset(ent_dataset,entail_path)
+        utils.save_dataset(not_ent_dataset,not_entail_path)
         print("Correctly saved. Closing")
         exit()
     elif num==1:
@@ -74,11 +85,26 @@ while(True):
         passage=boatcontest
     elif num==4:
         passage=general_islandcontest
+    elif num==5:
+        checker=False
+        question=boat_discover
+    elif num==6:
+        checker=False
+        question=island_discover
+    elif num==7:
+        checker=False
+        question=final_discover
     else:
         print("Try again")
-    print(f'contest:\n{passage}')
-    question=input("Enter question:\n->")
-    label=int(input("Enter answer (0: entailment, 1: not entailment)\n->"))
+    if checker:
+        print(f'contest:\n{passage}')
+        question=input("Enter question:\n->")
+        label=int(input("Enter answer (0: entailment, 1: not entailment)\n->"))
+    else:
+        print(f'question:\n{question}')
+        passage=input("Enter passage:\n->")
+        label=int(input("Enter answer (0: entailment, 1: not entailment)\n->"))
+    
     if(label!=0 and label!=1):
         print("coglione")
         continue
