@@ -1,114 +1,184 @@
 [
- {
-  "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
-  "question": "bob has economic issues",
-  "answer": 1,
-  "contest": 1,
-  "idx": 91
- },
- {
-  "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
-  "question": "tom has economic issues",
-  "answer": 1,
-  "contest": 1,
-  "idx": 92
- },
- {
-  "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
-  "question": "the two friends have economic issues",
-  "answer": 1,
-  "contest": 1,
-  "idx": 93
- },
- {
-  "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
-  "question": "the two friends are psychos",
-  "answer": 1,
-  "contest": 1,
-  "idx": 94
- },
- {
-  "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
-  "question": "the two friends are sociopaths",
-  "answer": 1,
-  "contest": 1,
-  "idx": 95
- },
- {
-  "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knowsbob would suicide. bob does not know lucy is dead",
-  "question": "someone at the restaurant is involved in bob's suicide",
-  "answer": 1,
-  "contest": 2,
-  "idx": 88
- },
- {
-  "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knowsbob would suicide. bob does not know lucy is dead",
-  "question": "they chose to go to that restaurant",
-  "answer": 1,
-  "contest": 2,
-  "idx": 89
- },
- {
-  "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knowsbob would suicide. bob does not know lucy is dead",
-  "question": "bob did not have enough money to pay the restaurant",
-  "answer": 1,
-  "contest": 2,
-  "idx": 90
- },
- {
-  "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island. ",
-  "question": "bob made lucy angry",
-  "answer": 1,
-  "contest": 3,
-  "idx": 62
- },
- {
-  "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are notdangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. he does not want to eat lucy. he eats lucy. bob also eats lucy. bob does notknow he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
-  "question": "there is a tribe on the island",
-  "answer": 1,
-  "contest": 4,
-  "idx": 46
- },
- {
-  "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are notdangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. he does not want to eat lucy. he eats lucy. bob also eats lucy. bob does notknow he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
-  "question": "there is a tribe on the island",
-  "answer": 1,
-  "contest": 4,
-  "idx": 47
- },
- {
-  "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are notdangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. he does not want to eat lucy. he eats lucy. bob also eats lucy. bob does notknow he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
-  "question": "bob likes eating lucy",
-  "answer": 1,
-  "contest": 4,
-  "idx": 50
- },
- {
-  "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are notdangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. he does not want to eat lucy. he eats lucy. bob also eats lucy. bob does notknow he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
-  "question": "bob knows lucy is dead",
-  "answer": 1,
-  "contest": 4,
-  "idx": 76
- },
- {
-  "passage": "there is a thunderstorm the ship is wrecked and they cast away on a solitary island",
-  "question": "bob and tom cast away on an island",
-  "answer": 0,
-  "contest": 6,
-  "idx": 104
- },
- {
-  "passage": "bob killed himself because of a religious belief",
-  "question": "bob realized he ate lucy",
-  "answer": 1,
-  "contest": 7,
-  "idx": 72
- },
- {
-  "passage": "the seagull was poisoned",
-  "question": "bob realized he ate lucy",
-  "answer": 1,
-  "contest": 7,
-  "idx": 73
- }
+  {
+    "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+    "question": "the two friends have economic issues",
+    "answer": 1,
+    "contest": 1,
+    "idx": 93
+  },
+  {
+    "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+    "question": "the two friends are psychos",
+    "answer": 1,
+    "contest": 1,
+    "idx": 94
+  },
+  {
+    "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+    "question": "the two friends are sociopaths",
+    "answer": 1,
+    "contest": 1,
+    "idx": 95
+  },
+  {
+    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead",
+    "question": "bob and tom are not happy",
+    "answer": 0,
+    "contest": 2,
+    "idx": 122
+  },
+  {
+    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead",
+    "question": "bob and tom are tired",
+    "answer": 0,
+    "contest": 2,
+    "idx": 123
+  },
+  {
+    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead",
+    "question": "everything was normal at the restaurant",
+    "answer": 0,
+    "contest": 2,
+    "idx": 124
+  },
+  {
+    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead",
+    "question": "the waiter did nothing suspicious",
+    "answer": 0,
+    "contest": 2,
+    "idx": 125
+  },
+  {
+    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead",
+    "question": "the meat the waiter brings is perfectly fine and is actually seagull",
+    "answer": 0,
+    "contest": 2,
+    "idx": 126
+  },
+  {
+    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead",
+    "question": "they go to the restaurant after being at the pier",
+    "answer": 0,
+    "contest": 2,
+    "idx": 127
+  },
+  {
+    "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island. ",
+    "question": "bob tom and lucy did not have arguments",
+    "answer": 0,
+    "contest": 3,
+    "idx": 112
+  },
+  {
+    "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island. ",
+    "question": "there are 3 people in the boat",
+    "answer": 0,
+    "contest": 3,
+    "idx": 128
+  },
+  {
+    "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island. ",
+    "question": "there was someone else with bob and tom in the boat",
+    "answer": 0,
+    "contest": 3,
+    "idx": 129
+  },
+  {
+    "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island. ",
+    "question": "bob and tom are not alone in the boat",
+    "answer": 0,
+    "contest": 3,
+    "idx": 130
+  },
+  {
+    "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island. ",
+    "question": "there are exactly 3 people in the boat and no one else",
+    "answer": 0,
+    "contest": 3,
+    "idx": 131
+  },
+  {
+    "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. he does not want to eat lucy. he eats lucy. bob also eats lucy. bob does notknow he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
+    "question": "there is a tribe on the island",
+    "answer": 1,
+    "contest": 4,
+    "idx": 47
+  },
+  {
+    "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. he does not want to eat lucy. he eats lucy. bob also eats lucy. bob does notknow he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
+    "question": "bob likes eating lucy",
+    "answer": 1,
+    "contest": 4,
+    "idx": 50
+  },
+  {
+    "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. he does not want to eat lucy. he eats lucy. bob also eats lucy. bob does notknow he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
+    "question": "bob knows lucy is dead",
+    "answer": 1,
+    "contest": 4,
+    "idx": 76
+  },
+  {
+    "passage": "bob and tom planned to go to the pier",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 132
+  },
+  {
+    "passage": "bob and tom decided to hang out by the pier",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 133
+  },
+  {
+    "passage": "they were in their homes",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 134
+  },
+  {
+    "passage": "they were at the pier by chance",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 135
+  },
+  {
+    "passage": "a storm cast the two friends away on an island",
+    "question": "bob and tom cast away on an island",
+    "answer": 0,
+    "contest": 6,
+    "idx": 117
+  },
+  {
+    "passage": "when they were on the boat, there was a violent storm that wrecked the ship and cast them away on a solitary island",
+    "question": "bob and tom cast away on an island",
+    "answer": 0,
+    "contest": 6,
+    "idx": 118
+  },
+  {
+    "passage": "the seagull was poisoned",
+    "question": "bob realized he ate lucy",
+    "answer": 1,
+    "contest": 7,
+    "idx": 73
+  },
+  {
+    "passage": "bob did not really like seagull meat",
+    "question": "bob realized he ate lucy",
+    "answer": 1,
+    "contest": 7,
+    "idx": 119
+  },
+  {
+    "passage": "the meat he ate was not suited with his taste",
+    "question": "bob realized he ate lucy",
+    "answer": 1,
+    "contest": 7,
+    "idx": 120
+  }
 ]

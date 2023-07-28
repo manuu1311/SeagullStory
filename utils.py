@@ -14,8 +14,10 @@ def get_train():
             validset=json.load(f)
     return trainset,validset
 
-def change_contest(new_contest, num, x):
-    if x['contest']==num: x['passage']=new_contest
+def change_contest(new_contest, num,dataset):
+    for i in range(len(dataset)):
+        if dataset[i]['contest']==num: dataset[i]['passage']=new_contest
+    return dataset
 
 def change_label(old,new,x):
     if x['contest']==old: x['contest']=new
@@ -27,7 +29,7 @@ def getinfo(dataset,contest):
 
 def save_dataset(dataset,path):
     with open(path,'w') as f:
-        json.dump(dataset,f,indent=1)
+        json.dump(dataset,f,indent=2)
 
 def order_dataset(dataset):
      dataset=sorted(dataset, key= lambda x : x['contest'])

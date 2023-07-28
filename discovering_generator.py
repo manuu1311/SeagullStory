@@ -33,10 +33,7 @@ bob realized he ate lucy
 
 entail_path='entail_questions.json'
 not_entail_path='not_entail_questions.json'
-with open(entail_path, 'r') as file:
-    ent_dataset = json.load(file)
-with open(not_entail_path, 'r') as file:
-    not_ent_dataset = json.load(file)
+ent_d
 
 while(True):
     num=input("Choose what you want to do!\n"

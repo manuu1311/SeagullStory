@@ -37,7 +37,7 @@ there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island.
 """.replace("\n","")
 
 general_islandcontest="""
-lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not
+lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not 
 dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.
 they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.
 tom is compelled to eat lucy. he does not want to eat lucy. he eats lucy. bob also eats lucy. bob does not
@@ -67,7 +67,8 @@ while(True):
     checker=True
     num=input("Choose what you want to do!\n"
               "0 :  Save questions to json\n1 :  Add general question\n2 :  Add pier question\n"
-              "3 :  Add boat contest\n4 :  Add island question\n")
+              "3 :  Add boat contest\n4 :  Add island question\n5 :  Add boat unlock sentence\n6 :  "
+               "Add island unlock sentence\n7 :  Add win game sentence\n")
     try: num=int(num)
     except: continue
     if num==0:
