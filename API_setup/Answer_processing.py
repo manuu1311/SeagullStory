@@ -13,7 +13,7 @@ tokenizer = AutoTokenizer.from_pretrained(checkpoint)
 
 #given passage and question, returns "yes" or "no"
 def get_predict(passage,question):
-  inputs=tokenizer(passage,question, return_tensors="tf")
+  inputs=tokenizer(question,passage, return_tensors="tf")
   return model.config.id2label[np.argmax(model(**inputs).logits)]
 
 
