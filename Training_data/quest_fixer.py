@@ -16,9 +16,9 @@ not_entail_path='Training_data/not_entail_questions.json'
 #for elem in dataset:
 #    change_label(6,5,elem)
 contest="""
-Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. 
-Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob 
-and tom were exhausted. bob and tom had discussions. tom knows bob would suicide
+bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.
+bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.
+the story is completely plausible.
 """.replace("\n","")
 
 ent_dataset=utils.change_contest(contest,1,ent_dataset)

@@ -1258,5 +1258,65 @@
   "question": "sarah is happy about her husband",
   "answer": 1,
   "contest": 9
+ },
+ {
+  "passage": "tom suddenly threw up",
+  "question": "lucy died in the shipwreck",
+  "answer": 1,
+  "contest": 11
+ },
+ {
+  "passage": "lucy died after the shipwreck",
+  "question": "lucy died in the shipwreck",
+  "answer": 0,
+  "contest": 11
+ },
+ {
+  "passage": "tom died in the shipwreck",
+  "question": "lucy died in the shipwreck",
+  "answer": 1,
+  "contest": 11
+ },
+ {
+  "passage": "bob died in the shipwreck",
+  "question": "lucy died in the shipwreck",
+  "answer": 1,
+  "contest": 11
+ },
+ {
+  "passage": "there was a violent storm that wrecked the ship. because of that, lucy died",
+  "question": "lucy died in the shipwreck",
+  "answer": 0,
+  "contest": 11
+ },
+ {
+  "passage": "a violent storm scattered the boat. the three of them fought for their lives. the others could make it, but lucy unfortunately could not",
+  "question": "lucy died in the shipwreck",
+  "answer": 0,
+  "contest": 11
+ },
+ {
+  "passage": "a storm caused the ship to wreck, causing lucy's death",
+  "question": "lucy died in the shipwreck",
+  "answer": 0,
+  "contest": 11
+ },
+ {
+  "passage": "the storm and the following shipwreck resulted fatal for lucy",
+  "question": "lucy died in the shipwreck",
+  "answer": 0,
+  "contest": 11
+ },
+ {
+  "passage": "a violent storm falls upon the boat. the damage to the boat is severe, the people onboard jump and try to swim for their lives. lucy was one of the few fortunates to make it all alive",
+  "question": "lucy died in the shipwreck",
+  "answer": 1,
+  "contest": 11
+ },
+ {
+  "passage": "a storm fell upon the boat. luckily, there were no deaths",
+  "question": "lucy died in the shipwreck",
+  "answer": 1,
+  "contest": 11
  }
 ]
