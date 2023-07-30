@@ -6,6 +6,7 @@ import numpy as np
 
 #loading model and tokenizer
 checkpoint="distilbert-base-uncased"
+#path to the model
 path="/content/drive/MyDrive/Models/distilbert"
 model = TFAutoModelForSequenceClassification.from_pretrained(path)
 tokenizer = AutoTokenizer.from_pretrained(checkpoint)
