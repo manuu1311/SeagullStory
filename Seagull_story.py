@@ -83,6 +83,7 @@ Choose what you want to do!
         question=final_discover
     elif num==0:
         print_flag=not print_flag
+        continue
     else:
         print("Try again")
         continue
