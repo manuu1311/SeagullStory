@@ -62,8 +62,8 @@ bob realized he ate lucy
 """.replace("\n","")
 
 
-entail_path='entail_questions.json'
-not_entail_path='not_entail_questions.json'
+entail_path='Training_data/entail_questions.json'
+not_entail_path='Training_data/not_entail_questions.json'
 ent_dataset,not_ent_dataset = utils.get_datasets()
 
 while(True):

@@ -1,16 +1,16 @@
 import json
 
 def get_datasets():
-    with open("entail_questions.json","r") as f:
+    with open("Training_data/entail_questions.json","r") as f:
         ent_dataset=json.load(f)
-    with open("not_entail_questions.json","r") as f:
+    with open("Training_data/not_entail_questions.json","r") as f:
         not_ent_dataset=json.load(f)
     return ent_dataset,not_ent_dataset
 
 def get_train():
-    with open("trainset.json","r") as f:
+    with open("Training_data/trainset.json","r") as f:
             trainset=json.load(f)
-    with open("validset.json","r") as f:
+    with open("Training_data/validset.json","r") as f:
             validset=json.load(f)
     return trainset,validset
 
