@@ -64,13 +64,6 @@
   },
   {
     "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island. ",
-    "question": "bob tom and lucy did not have arguments",
-    "answer": 0,
-    "contest": 3,
-    "idx": 112
-  },
-  {
-    "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island. ",
     "question": "there are 3 people in the boat",
     "answer": 0,
     "contest": 3,
@@ -98,32 +91,32 @@
     "idx": 131
   },
   {
-    "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. he does not want to eat lucy. he eats lucy. bob also eats lucy. bob does notknow he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
-    "question": "there is a tribe on the island",
-    "answer": 1,
-    "contest": 4,
-    "idx": 47
+    "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island. ",
+    "question": "bob tom and lucy are having a great time",
+    "answer": 0,
+    "contest": 3,
+    "idx": 154
+  },
+  {
+    "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island. ",
+    "question": "the storm happened unexpectedly",
+    "answer": 0,
+    "contest": 3,
+    "idx": 155
   },
   {
     "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. he does not want to eat lucy. he eats lucy. bob also eats lucy. bob does notknow he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
-    "question": "bob likes eating lucy",
+    "question": "tom tells bob that he is eating lucy",
     "answer": 1,
     "contest": 4,
-    "idx": 50
+    "idx": 150
   },
   {
     "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. he does not want to eat lucy. he eats lucy. bob also eats lucy. bob does notknow he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
-    "question": "bob knows lucy is dead",
+    "question": "tom believes he is eating seagull",
     "answer": 1,
     "contest": 4,
-    "idx": 76
-  },
-  {
-    "passage": "bob and tom planned to go to the pier",
-    "question": "bob and tom went on a boat trip",
-    "answer": 1,
-    "contest": 5,
-    "idx": 132
+    "idx": 153
   },
   {
     "passage": "bob and tom decided to hang out by the pier",
@@ -147,18 +140,32 @@
     "idx": 135
   },
   {
-    "passage": "a storm cast the two friends away on an island",
-    "question": "bob and tom cast away on an island",
-    "answer": 0,
-    "contest": 6,
-    "idx": 117
+    "passage": "Bob and Tom hiked through the dense forest.",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 140
   },
   {
-    "passage": "when they were on the boat, there was a violent storm that wrecked the ship and cast them away on a solitary island",
+    "passage": "They enjoyed a picnic in the park.",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 141
+  },
+  {
+    "passage": "Bob and Tom attended a music concert together.",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 142
+  },
+  {
+    "passage": "Bob and Tom survived on an island after a shipwreck.",
     "question": "bob and tom cast away on an island",
     "answer": 0,
     "contest": 6,
-    "idx": 118
+    "idx": 136
   },
   {
     "passage": "the seagull was poisoned",

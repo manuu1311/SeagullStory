@@ -598,5 +598,665 @@
   "question": "there are two men and one woman, the men fight with each other in the hope of mating with the woman",
   "answer": 1,
   "contest": 3
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "there are 3 friends involved in this story",
+  "answer": 1,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "there are only two friends involved in this story",
+  "answer": 0,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "the two of them are not really friends. they secretly hate each other",
+  "answer": 1,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "they are actually friends",
+  "answer": 0,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "the two people who are at the pier are actually friends",
+  "answer": 0,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "the two of them chose to hang out by the pier",
+  "answer": 1,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "something's off at the restaurant",
+  "answer": 1,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "something is just not right at the restaurant, and the two friends can feel it",
+  "answer": 1,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "someone has ordered seagull meat",
+  "answer": 0,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "someone wanted to eat seagull meat",
+  "answer": 0,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "the waiter behaves normally",
+  "answer": 0,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "they were at the pier because the were rescued after they were cast away on the island",
+  "answer": 0,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "a sailor brings them there",
+  "answer": 0,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "the two friends have a hard time deciding what to order",
+  "answer": 1,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "something strange happens at the restaurant",
+  "answer": 0,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "everything that happens at the restaurant is ordinary",
+  "answer": 0,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "someone orders seagull meat at the restaurant",
+  "answer": 0,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "the waiter doesn't actually bring them what they ordered",
+  "answer": 1,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "they did not have plans to be here",
+  "answer": 0,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "they decided to go there because they planned to do something",
+  "answer": 1,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "they are just hanging out and chilling",
+  "answer": 1,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "they plan to do something specific and that's why they are at the pier",
+  "answer": 1,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "they have been saved by someone else",
+  "answer": 0,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "they did not choose to go to that specific restaurant. they just happened to be there and just went there, randomly",
+  "answer": 0,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "even though everything looks normal, there is something that is just not right, but they don't know what",
+  "answer": 1,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "it was night",
+  "answer": 1,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "it all happened in christmas",
+  "answer": 1,
+  "contest": 4
+ },
+ {
+  "passage": "two friends are at the pier. they are there by chance, they did not actually plan to be there. they have been saved by a sailor after they cast away on a desert island. they randomly go to a restaurant. everything seems normal. they order food and the waiter brings them what they ordered. the waiter behaves normally. nothing is strange, everything is ordinary at the restaurant. one of them ordered seagull meat.",
+  "question": "they are discussing a surprise birthday party for their friend",
+  "answer": 1,
+  "contest": 4
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel was riding a bike",
+  "answer": 0,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "the road was downhill when daniel fell",
+  "answer": 0,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel can ride a bike",
+  "answer": 0,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel managed to survive the accident",
+  "answer": 0,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel survived the accident",
+  "answer": 0,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel is alive and well, he just has some bruises and a broken arm",
+  "answer": 0,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel broke his arm",
+  "answer": 0,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel is injured",
+  "answer": 0,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "a car hit daniel while he was riding a bike",
+  "answer": 1,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel fell on the ground",
+  "answer": 0,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel is at the hospital",
+  "answer": 0,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel is recovering his broken arm",
+  "answer": 0,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel got bruises on his hands",
+  "answer": 0,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "the bike lost grip",
+  "answer": 0,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "the front tyre lost grip",
+  "answer": 0,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "the bike did not have brakes",
+  "answer": 1,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel was driving his car",
+  "answer": 1,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "once upon a time, lucy was the queen of the big reign. she reigned in peace, all the citizens were happy and they prospered for more than fifty years",
+  "answer": 1,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel broke his leg",
+  "answer": 1,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel hit his head while riding a bike, now he is at the hospital in critical conditions",
+  "answer": 1,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel's conditions are critical",
+  "answer": 1,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel lost control of the bike because a truck was driving into him and he tried to avoid it",
+  "answer": 1,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel was not harmed in his accident",
+  "answer": 1,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel is already fully recovered",
+  "answer": 1,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel was riding a motorcycle",
+  "answer": 1,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel died shortly after the accident. the ambulance tried to revive him with no success",
+  "answer": 1,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel is married to matthew, they are homosexuals",
+  "answer": 1,
+  "contest": 5
+ },
+ {
+  "passage": "daniel was riding a bike. he was going downhill when suddenly the front tyre loses grip and daniel loses control. he falls. he tries to cover his face with his hands, both the hands got bruised and with one hand he hit the ground forcefully causing the arm bone to break.now he is at the hospital, he is trying to recover",
+  "question": "daniel fell while climbing the stairs",
+  "answer": 1,
+  "contest": 5
+ },
+ {
+  "passage": "Sophie, a curious explorer, set off on an adventure through the dense jungle. Excitement filled the air as she encountered vibrant creatures and exotic plants. But amidst the beauty, a mysterious artifact caught her eye. As she reached for it, the ground trembled, and ancient ruins emerged from the earth. Sophie's expedition had unveiled a forgotten civilization, unraveling secrets lost in time.",
+  "question": "sophie is curious",
+  "answer": 0,
+  "contest": 6
+ },
+ {
+  "passage": "Sophie, a curious explorer, set off on an adventure through the dense jungle. Excitement filled the air as she encountered vibrant creatures and exotic plants. But amidst the beauty, a mysterious artifact caught her eye. As she reached for it, the ground trembled, and ancient ruins emerged from the earth. Sophie's expedition had unveiled a forgotten civilization, unraveling secrets lost in time.",
+  "question": "sophie is an explorer",
+  "answer": 0,
+  "contest": 6
+ },
+ {
+  "passage": "Sophie, a curious explorer, set off on an adventure through the dense jungle. Excitement filled the air as she encountered vibrant creatures and exotic plants. But amidst the beauty, a mysterious artifact caught her eye. As she reached for it, the ground trembled, and ancient ruins emerged from the earth. Sophie's expedition had unveiled a forgotten civilization, unraveling secrets lost in time.",
+  "question": "sophie is a curious explorer",
+  "answer": 0,
+  "contest": 6
+ },
+ {
+  "passage": "Sophie, a curious explorer, set off on an adventure through the dense jungle. Excitement filled the air as she encountered vibrant creatures and exotic plants. But amidst the beauty, a mysterious artifact caught her eye. As she reached for it, the ground trembled, and ancient ruins emerged from the earth. Sophie's expedition had unveiled a forgotten civilization, unraveling secrets lost in time.",
+  "question": "sophie set off of an adventure through the jungle",
+  "answer": 0,
+  "contest": 6
+ },
+ {
+  "passage": "Sophie, a curious explorer, set off on an adventure through the dense jungle. Excitement filled the air as she encountered vibrant creatures and exotic plants. But amidst the beauty, a mysterious artifact caught her eye. As she reached for it, the ground trembled, and ancient ruins emerged from the earth. Sophie's expedition had unveiled a forgotten civilization, unraveling secrets lost in time.",
+  "question": "sophie encountered creatures and plants in the adventure",
+  "answer": 0,
+  "contest": 6
+ },
+ {
+  "passage": "Sophie, a curious explorer, set off on an adventure through the dense jungle. Excitement filled the air as she encountered vibrant creatures and exotic plants. But amidst the beauty, a mysterious artifact caught her eye. As she reached for it, the ground trembled, and ancient ruins emerged from the earth. Sophie's expedition had unveiled a forgotten civilization, unraveling secrets lost in time.",
+  "question": "there was a mysterious artifact that she tried to reach for",
+  "answer": 0,
+  "contest": 6
+ },
+ {
+  "passage": "Sophie, a curious explorer, set off on an adventure through the dense jungle. Excitement filled the air as she encountered vibrant creatures and exotic plants. But amidst the beauty, a mysterious artifact caught her eye. As she reached for it, the ground trembled, and ancient ruins emerged from the earth. Sophie's expedition had unveiled a forgotten civilization, unraveling secrets lost in time.",
+  "question": "sophie found a forgotten civilization",
+  "answer": 0,
+  "contest": 6
+ },
+ {
+  "passage": "Sophie, a curious explorer, set off on an adventure through the dense jungle. Excitement filled the air as she encountered vibrant creatures and exotic plants. But amidst the beauty, a mysterious artifact caught her eye. As she reached for it, the ground trembled, and ancient ruins emerged from the earth. Sophie's expedition had unveiled a forgotten civilization, unraveling secrets lost in time.",
+  "question": "sophie is not curious",
+  "answer": 1,
+  "contest": 6
+ },
+ {
+  "passage": "Sophie, a curious explorer, set off on an adventure through the dense jungle. Excitement filled the air as she encountered vibrant creatures and exotic plants. But amidst the beauty, a mysterious artifact caught her eye. As she reached for it, the ground trembled, and ancient ruins emerged from the earth. Sophie's expedition had unveiled a forgotten civilization, unraveling secrets lost in time.",
+  "question": "sophie is not an explorer",
+  "answer": 1,
+  "contest": 6
+ },
+ {
+  "passage": "Sophie, a curious explorer, set off on an adventure through the dense jungle. Excitement filled the air as she encountered vibrant creatures and exotic plants. But amidst the beauty, a mysterious artifact caught her eye. As she reached for it, the ground trembled, and ancient ruins emerged from the earth. Sophie's expedition had unveiled a forgotten civilization, unraveling secrets lost in time.",
+  "question": "sophie did not have any ancounter",
+  "answer": 1,
+  "contest": 6
+ },
+ {
+  "passage": "Sophie, a curious explorer, set off on an adventure through the dense jungle. Excitement filled the air as she encountered vibrant creatures and exotic plants. But amidst the beauty, a mysterious artifact caught her eye. As she reached for it, the ground trembled, and ancient ruins emerged from the earth. Sophie's expedition had unveiled a forgotten civilization, unraveling secrets lost in time.",
+  "question": "sophie set off of an adventure through the icy environment of the north pole",
+  "answer": 1,
+  "contest": 6
+ },
+ {
+  "passage": "Sophie, a curious explorer, set off on an adventure through the dense jungle. Excitement filled the air as she encountered vibrant creatures and exotic plants. But amidst the beauty, a mysterious artifact caught her eye. As she reached for it, the ground trembled, and ancient ruins emerged from the earth. Sophie's expedition had unveiled a forgotten civilization, unraveling secrets lost in time.",
+  "question": "sophie died as soon as she reached for the artifact",
+  "answer": 1,
+  "contest": 6
+ },
+ {
+  "passage": "Sophie, a curious explorer, set off on an adventure through the dense jungle. Excitement filled the air as she encountered vibrant creatures and exotic plants. But amidst the beauty, a mysterious artifact caught her eye. As she reached for it, the ground trembled, and ancient ruins emerged from the earth. Sophie's expedition had unveiled a forgotten civilization, unraveling secrets lost in time.",
+  "question": "sophie fought for her life against dangerous animals in the jungle",
+  "answer": 1,
+  "contest": 6
+ },
+ {
+  "passage": "Sophie, a curious explorer, set off on an adventure through the dense jungle. Excitement filled the air as she encountered vibrant creatures and exotic plants. But amidst the beauty, a mysterious artifact caught her eye. As she reached for it, the ground trembled, and ancient ruins emerged from the earth. Sophie's expedition had unveiled a forgotten civilization, unraveling secrets lost in time.",
+  "question": "sophie unveiled nothing during the expedition",
+  "answer": 1,
+  "contest": 6
+ },
+ {
+  "passage": "In the quaint town of Willowbrook, a young artist named Emma discovered an old, dusty canvas in her attic. As she began to paint, her strokes seemed to come alive, revealing a magical portal. Curiosity overwhelmed her, and she stepped through, finding herself in a breathtaking realm of colors and imagination. With newfound inspiration, Emma embraced the enchanting world, sharing its wonders with the town through her extraordinary art, leaving an everlasting mark on hearts and minds alike.",
+  "question": "emma is a young artist",
+  "answer": 0,
+  "contest": 7
+ },
+ {
+  "passage": "In the quaint town of Willowbrook, a young artist named Emma discovered an old, dusty canvas in her attic. As she began to paint, her strokes seemed to come alive, revealing a magical portal. Curiosity overwhelmed her, and she stepped through, finding herself in a breathtaking realm of colors and imagination. With newfound inspiration, Emma embraced the enchanting world, sharing its wonders with the town through her extraordinary art, leaving an everlasting mark on hearts and minds alike.",
+  "question": "emma is young",
+  "answer": 0,
+  "contest": 7
+ },
+ {
+  "passage": "In the quaint town of Willowbrook, a young artist named Emma discovered an old, dusty canvas in her attic. As she began to paint, her strokes seemed to come alive, revealing a magical portal. Curiosity overwhelmed her, and she stepped through, finding herself in a breathtaking realm of colors and imagination. With newfound inspiration, Emma embraced the enchanting world, sharing its wonders with the town through her extraordinary art, leaving an everlasting mark on hearts and minds alike.",
+  "question": "emma is an artist",
+  "answer": 0,
+  "contest": 7
+ },
+ {
+  "passage": "In the quaint town of Willowbrook, a young artist named Emma discovered an old, dusty canvas in her attic. As she began to paint, her strokes seemed to come alive, revealing a magical portal. Curiosity overwhelmed her, and she stepped through, finding herself in a breathtaking realm of colors and imagination. With newfound inspiration, Emma embraced the enchanting world, sharing its wonders with the town through her extraordinary art, leaving an everlasting mark on hearts and minds alike.",
+  "question": "emma discovered something in her attic",
+  "answer": 0,
+  "contest": 7
+ },
+ {
+  "passage": "In the quaint town of Willowbrook, a young artist named Emma discovered an old, dusty canvas in her attic. As she began to paint, her strokes seemed to come alive, revealing a magical portal. Curiosity overwhelmed her, and she stepped through, finding herself in a breathtaking realm of colors and imagination. With newfound inspiration, Emma embraced the enchanting world, sharing its wonders with the town through her extraordinary art, leaving an everlasting mark on hearts and minds alike.",
+  "question": "emma is and old grumpy woman",
+  "answer": 1,
+  "contest": 7
+ },
+ {
+  "passage": "In the quaint town of Willowbrook, a young artist named Emma discovered an old, dusty canvas in her attic. As she began to paint, her strokes seemed to come alive, revealing a magical portal. Curiosity overwhelmed her, and she stepped through, finding herself in a breathtaking realm of colors and imagination. With newfound inspiration, Emma embraced the enchanting world, sharing its wonders with the town through her extraordinary art, leaving an everlasting mark on hearts and minds alike.",
+  "question": "emma is a black woman",
+  "answer": 1,
+  "contest": 7
+ },
+ {
+  "passage": "In the quaint town of Willowbrook, a young artist named Emma discovered an old, dusty canvas in her attic. As she began to paint, her strokes seemed to come alive, revealing a magical portal. Curiosity overwhelmed her, and she stepped through, finding herself in a breathtaking realm of colors and imagination. With newfound inspiration, Emma embraced the enchanting world, sharing its wonders with the town through her extraordinary art, leaving an everlasting mark on hearts and minds alike.",
+  "question": "emma found nothing in her attic",
+  "answer": 1,
+  "contest": 7
+ },
+ {
+  "passage": "In the quaint town of Willowbrook, a young artist named Emma discovered an old, dusty canvas in her attic. As she began to paint, her strokes seemed to come alive, revealing a magical portal. Curiosity overwhelmed her, and she stepped through, finding herself in a breathtaking realm of colors and imagination. With newfound inspiration, Emma embraced the enchanting world, sharing its wonders with the town through her extraordinary art, leaving an everlasting mark on hearts and minds alike.",
+  "question": "emma is not actually a woman. it's a dog",
+  "answer": 1,
+  "contest": 7
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "mark had toast for breakfast",
+  "answer": 0,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "mark did ordinary tasks at the office",
+  "answer": 0,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "mark had a ham sandwich for lunch",
+  "answer": 0,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "mark went to the gym after work",
+  "answer": 0,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "while mark was having dinner, the tv was on",
+  "answer": 0,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "while mark was having dinner, a tv show player in the background",
+  "answer": 0,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "mark had an ordinary day where nothing unusual happened",
+  "answer": 0,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "mark had a monotone day",
+  "answer": 0,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "it was an uneventful day for mark",
+  "answer": 0,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "mark did not wake up on monday, because he was dead",
+  "answer": 1,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "mark had pizza for breakfast",
+  "answer": 1,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "mark did something exciting at work",
+  "answer": 1,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "something strange and unusual happened at work for mark",
+  "answer": 1,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "mark had a strange encounter while going to the gym",
+  "answer": 1,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "mark had a sandwich with cheese and speck for lunch",
+  "answer": 1,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "mark listened to the radio while having dinner",
+  "answer": 1,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "mark went to his girlfriend's house after work",
+  "answer": 1,
+  "contest": 8
+ },
+ {
+  "passage": "On a routine Monday morning, Mark woke up, had toast for breakfast, and commuted to work. The day passed with mundane office tasks. At lunch, he had a ham sandwich. The afternoon dragged on. After work, he went to the gym, then home to microwave dinner. An ordinary TV show played in the background. Eventually, Mark retired to bed, ready for another uneventful day.",
+  "question": "mark had an exciting day",
+  "answer": 1,
+  "contest": 8
+ },
+ {
+  "passage": "In a sleepy village, Sarah lived a monotonous life. Each day blended into the next: waking up, tending her garden, and preparing meals. The seasons changed subtly, and the villagers' conversations remained predictable. She yearned for a change, a spark in the routine. One day, a stranger arrived, and Sarah's life took an unexpected turn, introducing her to new possibilities and breaking the cycle of monotony.",
+  "question": "sarah has an exciting life",
+  "answer": 1,
+  "contest": 9
+ },
+ {
+  "passage": "In a sleepy village, Sarah lived a monotonous life. Each day blended into the next: waking up, tending her garden, and preparing meals. The seasons changed subtly, and the villagers' conversations remained predictable. She yearned for a change, a spark in the routine. One day, a stranger arrived, and Sarah's life took an unexpected turn, introducing her to new possibilities and breaking the cycle of monotony.",
+  "question": "sarah does not have an exciting life",
+  "answer": 0,
+  "contest": 9
+ },
+ {
+  "passage": "In a sleepy village, Sarah lived a monotonous life. Each day blended into the next: waking up, tending her garden, and preparing meals. The seasons changed subtly, and the villagers' conversations remained predictable. She yearned for a change, a spark in the routine. One day, a stranger arrived, and Sarah's life took an unexpected turn, introducing her to new possibilities and breaking the cycle of monotony.",
+  "question": "sarah lives an ordinary life",
+  "answer": 0,
+  "contest": 9
+ },
+ {
+  "passage": "In a sleepy village, Sarah lived a monotonous life. Each day blended into the next: waking up, tending her garden, and preparing meals. The seasons changed subtly, and the villagers' conversations remained predictable. She yearned for a change, a spark in the routine. One day, a stranger arrived, and Sarah's life took an unexpected turn, introducing her to new possibilities and breaking the cycle of monotony.",
+  "question": "sarah lives a monotous life",
+  "answer": 0,
+  "contest": 9
+ },
+ {
+  "passage": "In a sleepy village, Sarah lived a monotonous life. Each day blended into the next: waking up, tending her garden, and preparing meals. The seasons changed subtly, and the villagers' conversations remained predictable. She yearned for a change, a spark in the routine. One day, a stranger arrived, and Sarah's life took an unexpected turn, introducing her to new possibilities and breaking the cycle of monotony.",
+  "question": "sarah does not live a particularly exciting life",
+  "answer": 0,
+  "contest": 9
+ },
+ {
+  "passage": "In a sleepy village, Sarah lived a monotonous life. Each day blended into the next: waking up, tending her garden, and preparing meals. The seasons changed subtly, and the villagers' conversations remained predictable. She yearned for a change, a spark in the routine. One day, a stranger arrived, and Sarah's life took an unexpected turn, introducing her to new possibilities and breaking the cycle of monotony.",
+  "question": "sarah's life is not so exciting",
+  "answer": 0,
+  "contest": 9
+ },
+ {
+  "passage": "In a sleepy village, Sarah lived a monotonous life. Each day blended into the next: waking up, tending her garden, and preparing meals. The seasons changed subtly, and the villagers' conversations remained predictable. She yearned for a change, a spark in the routine. One day, a stranger arrived, and Sarah's life took an unexpected turn, introducing her to new possibilities and breaking the cycle of monotony.",
+  "question": "sarah met a stranger that allowed her to finally break out of her monotony",
+  "answer": 0,
+  "contest": 9
+ },
+ {
+  "passage": "In a sleepy village, Sarah lived a monotonous life. Each day blended into the next: waking up, tending her garden, and preparing meals. The seasons changed subtly, and the villagers' conversations remained predictable. She yearned for a change, a spark in the routine. One day, a stranger arrived, and Sarah's life took an unexpected turn, introducing her to new possibilities and breaking the cycle of monotony.",
+  "question": "sarah is a cat",
+  "answer": 1,
+  "contest": 9
+ },
+ {
+  "passage": "In a sleepy village, Sarah lived a monotonous life. Each day blended into the next: waking up, tending her garden, and preparing meals. The seasons changed subtly, and the villagers' conversations remained predictable. She yearned for a change, a spark in the routine. One day, a stranger arrived, and Sarah's life took an unexpected turn, introducing her to new possibilities and breaking the cycle of monotony.",
+  "question": "sarah is a person",
+  "answer": 0,
+  "contest": 9
+ },
+ {
+  "passage": "In a sleepy village, Sarah lived a monotonous life. Each day blended into the next: waking up, tending her garden, and preparing meals. The seasons changed subtly, and the villagers' conversations remained predictable. She yearned for a change, a spark in the routine. One day, a stranger arrived, and Sarah's life took an unexpected turn, introducing her to new possibilities and breaking the cycle of monotony.",
+  "question": "sarah has troubles providing her family with meals",
+  "answer": 1,
+  "contest": 9
+ },
+ {
+  "passage": "In a sleepy village, Sarah lived a monotonous life. Each day blended into the next: waking up, tending her garden, and preparing meals. The seasons changed subtly, and the villagers' conversations remained predictable. She yearned for a change, a spark in the routine. One day, a stranger arrived, and Sarah's life took an unexpected turn, introducing her to new possibilities and breaking the cycle of monotony.",
+  "question": "sarah goes to the gym everyday",
+  "answer": 1,
+  "contest": 9
+ },
+ {
+  "passage": "In a sleepy village, Sarah lived a monotonous life. Each day blended into the next: waking up, tending her garden, and preparing meals. The seasons changed subtly, and the villagers' conversations remained predictable. She yearned for a change, a spark in the routine. One day, a stranger arrived, and Sarah's life took an unexpected turn, introducing her to new possibilities and breaking the cycle of monotony.",
+  "question": "sarah likes to run one thousand meters everyday",
+  "answer": 1,
+  "contest": 9
+ },
+ {
+  "passage": "In a sleepy village, Sarah lived a monotonous life. Each day blended into the next: waking up, tending her garden, and preparing meals. The seasons changed subtly, and the villagers' conversations remained predictable. She yearned for a change, a spark in the routine. One day, a stranger arrived, and Sarah's life took an unexpected turn, introducing her to new possibilities and breaking the cycle of monotony.",
+  "question": "sarah is a fat lady",
+  "answer": 1,
+  "contest": 9
+ },
+ {
+  "passage": "In a sleepy village, Sarah lived a monotonous life. Each day blended into the next: waking up, tending her garden, and preparing meals. The seasons changed subtly, and the villagers' conversations remained predictable. She yearned for a change, a spark in the routine. One day, a stranger arrived, and Sarah's life took an unexpected turn, introducing her to new possibilities and breaking the cycle of monotony.",
+  "question": "sarah is happy about her husband",
+  "answer": 1,
+  "contest": 9
  }
 ]

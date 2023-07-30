@@ -22,8 +22,5 @@ bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by
  the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead
 """.replace("\n","")
 
-not_ent_dataset=utils.change_contest(contest,4,not_ent_dataset)
-utils.save_dataset(not_ent_dataset,"not_entail_questions.json")
-
 printinfo()
 

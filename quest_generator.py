@@ -12,7 +12,13 @@ def add_to_json(passage,question,label,contest):
     if(data_ins['answer'])==0: ent_dataset.append(data_ins)
     else: not_ent_dataset.append(data_ins)
 
-
+def printinfo():
+    print(f'Dataset length: {len(ent_dataset)+len(not_ent_dataset)}')
+    print("Contest\tYes\tNo")
+    for i in range(7):
+        yes=utils.getinfo(ent_dataset,i+1)
+        no=utils.getinfo(not_ent_dataset,i+1)
+        print(f'   {i+1}   \t {yes} \t{no}')
 
 
 generalcontest= """
@@ -73,6 +79,7 @@ while(True):
         not_ent_dataset=utils.order_dataset(not_ent_dataset)
         utils.save_dataset(ent_dataset,entail_path)
         utils.save_dataset(not_ent_dataset,not_entail_path)
+        printinfo()
         print("Correctly saved. Closing")
         exit()
     elif num==1:

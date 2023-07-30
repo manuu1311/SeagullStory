@@ -19,12 +19,11 @@ with open(path,'r') as f:
     dataset=json.load(f)
 
 story="""
-3 people cast away on a desert island. they don't have any tools, so they build new ones with anything they find. they are initially 
-scattered in different places of the island, but as they explore the island they eventually find each other. so, they start cooperating.
-although no deadly animal is present on the island, food is scarce, so surviving is challenging. they even managed to become friends 
-with monkeys. after some time, they build more advanced tools and they are actually happy to be in that island and don't want to look back.
+In a peaceful village, there lived a kind-hearted girl named Mia. Every morning, she fed the birds in the park and helped the elderly with
+ their groceries. One day, she found a wounded kitten and nursed it back to health. As they became inseparable, the village praised Mia's compassion.
+   Little did she know, her act of kindness would lead to an unexpected adventure.
 """.replace("\n","")
-contest=3
+contest=10
 
 while(True):
     num=(input("0: save\n1:add question\n"))
