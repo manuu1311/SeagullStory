@@ -1,11 +1,6 @@
 #TODO: where the api will be called, need to handle all contests and pre-processing
+from API_setup.Answer_processing import get_predict
 
-
-#TODO: api caller
-def get_answer_from_api(passage, question):
-    #send api the 2 sentences and get response
-    response="Not implemented yet"
-    return response
 
 
 #initializing all contests
@@ -31,7 +26,7 @@ there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island.
 general_islandcontest="""
 lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not 
 dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.
-they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.
+they resort to unconventional food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.
 tom is compelled to eat lucy. he does not want to eat lucy. he eats lucy. bob also eats lucy. bob does not
 know he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.
 bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man.
@@ -95,6 +90,6 @@ Choose what you want to do!
         if print_flag:
             print(f'question:\n{question}')
         passage=input("Enter guess:\n->")
-    response=get_answer_from_api(question,passage)
+    response=get_predict(question,passage)
     print(f'Response: {response}')
 
