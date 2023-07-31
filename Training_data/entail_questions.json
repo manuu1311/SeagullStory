@@ -252,6 +252,48 @@
     "idx": 127
   },
   {
+    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead",
+    "question": "they actually went to a restaurant",
+    "answer": 0,
+    "contest": 2,
+    "idx": 162
+  },
+  {
+    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead",
+    "question": "bob takes a bite of the food he received",
+    "answer": 0,
+    "contest": 2,
+    "idx": 163
+  },
+  {
+    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead",
+    "question": "bob suicide is linked to the seaull meat",
+    "answer": 0,
+    "contest": 2,
+    "idx": 164
+  },
+  {
+    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead",
+    "question": "the seagull meat is important to understand bob and his act",
+    "answer": 0,
+    "contest": 2,
+    "idx": 165
+  },
+  {
+    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead",
+    "question": "bob was tired",
+    "answer": 0,
+    "contest": 2,
+    "idx": 166
+  },
+  {
+    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead",
+    "question": "tom was tired",
+    "answer": 0,
+    "contest": 2,
+    "idx": 167
+  },
+  {
     "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island. ",
     "question": "the three of them were happy",
     "answer": 0,

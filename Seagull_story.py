@@ -47,6 +47,8 @@ bob realized he ate lucy
 
 #true: print the contest before asking the question, false: do not print anything
 print_flag=False
+#where to save the questions asked
+quest_path="Training_data/QuestionDB.txt"
 #infinite question asking loop
 while(True):
     checker=True
@@ -91,5 +93,7 @@ Choose what you want to do!
             print(f'question:\n{question}')
         passage=input("Enter guess:\n->")
     response=get_predict(question,passage)
+    with open(quest_path,'a') as f:
+        f.write(f'Contest: {num}\nPassage: {passage}\nQuestion: {question}\nAnswer: {response}')
     print(f'Response: {response}')
 
