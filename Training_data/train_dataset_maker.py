@@ -9,16 +9,22 @@ for i in range(7):
     falsecont=utils.getinfo(not_ent,i+1)
     checker=truecont>=falsecont
     if checker:
-        trainset.extend(ent[:falsecont])
-        trainset.extend(not_ent[:falsecont])
-        validset.extend(ent[falsecont:truecont])
+        num=round(falsecont*0.8)
+        temp_data=ent[:num]
+        temp_data.extend(not_ent[:num])
+        trainset.extend(temp_data)
+        validset.extend(not_ent[num:falsecont])
+        validset.extend(ent[num:truecont])
     else:
-        trainset.extend(ent[:truecont])
-        trainset.extend(not_ent[:truecont])
-        validset.extend(not_ent[truecont:falsecont])
+        num=round(truecont*0.8)
+        temp_data=ent[:num]
+        temp_data.extend(not_ent[:num])
+        trainset.extend(temp_data)
+        validset.extend(not_ent[num:falsecont])
+        validset.extend(ent[num:truecont])
 
     ent[:truecont]=[]
     not_ent[:falsecont]=[]
 
-utils.save_dataset(trainset,"trainset.json")
-utils.save_dataset(validset,"validset.json")
+utils.save_dataset(trainset,"Training_data/trainset.json")
+utils.save_dataset(validset,"Training_data/validset.json")
