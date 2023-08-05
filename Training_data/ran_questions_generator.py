@@ -19,9 +19,9 @@ with open(path,'r') as f:
     dataset=json.load(f)
 
 story="""
-lucy died in the shipwreck
+bob realized he ate lucy on the island
 """.replace("\n","")
-contest=11
+contest=13
 
 # true: unlock guess false: story question
 unlock_flag=True

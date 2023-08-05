@@ -1318,5 +1318,77 @@
   "question": "lucy died in the shipwreck",
   "answer": 1,
   "contest": 11
+ },
+ {
+  "passage": "bob can't see",
+  "question": "bob is blind",
+  "answer": 0,
+  "contest": 12
+ },
+ {
+  "passage": "bob has a physical disability",
+  "question": "bob is blind",
+  "answer": 0,
+  "contest": 12
+ },
+ {
+  "passage": "bob is affected by blindness",
+  "question": "bob is blind",
+  "answer": 0,
+  "contest": 12
+ },
+ {
+  "passage": "tom is blind",
+  "question": "bob is blind",
+  "answer": 1,
+  "contest": 12
+ },
+ {
+  "passage": "bob is smart",
+  "question": "bob is blind",
+  "answer": 1,
+  "contest": 12
+ },
+ {
+  "passage": "bob is rich",
+  "question": "bob is blind",
+  "answer": 1,
+  "contest": 12
+ },
+ {
+  "passage": "as soon as bob took a bite of the seagull, he realized what he did: what he ate on the island was not seagull, but lucy",
+  "question": "bob realized he ate lucy on the island",
+  "answer": 0,
+  "contest": 13
+ },
+ {
+  "passage": "bob now understand that on the island he ate lucy",
+  "question": "bob realized he ate lucy on the island",
+  "answer": 0,
+  "contest": 13
+ },
+ {
+  "passage": "bob now understands. he thought he ate seagull on the island, but the taste is just not the same: what he ate on the island must have been lucy",
+  "question": "bob realized he ate lucy on the island",
+  "answer": 0,
+  "contest": 13
+ },
+ {
+  "passage": "bob did not like the seagull",
+  "question": "bob realized he ate lucy on the island",
+  "answer": 1,
+  "contest": 13
+ },
+ {
+  "passage": "bob wanted get revenge",
+  "question": "bob realized he ate lucy on the island",
+  "answer": 1,
+  "contest": 13
+ },
+ {
+  "passage": "since the seagull was bad cooked, bob did not like it",
+  "question": "bob realized he ate lucy on the island",
+  "answer": 1,
+  "contest": 13
  }
 ]

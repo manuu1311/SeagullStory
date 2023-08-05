@@ -31,7 +31,7 @@ piercontest="""
 Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. 
 They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.
 Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows 
-bob would suicide. bob does not know lucy is dead
+bob would suicide. bob does not know lucy is dead. tom knows lucy is dead.
 """.replace("\n","")
 
 boatcontest="""
@@ -42,10 +42,10 @@ there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island.
 general_islandcontest="""
 lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not 
 dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.
-they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.
-tom is compelled to eat lucy. he does not want to eat lucy. he eats lucy. bob also eats lucy. bob does not
-know he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.
-bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man.
+they resort to unconventional food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.
+tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. bob does not
+know bob is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.
+bob thinks bob is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man.
  the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead
 """.replace("\n","")
 
