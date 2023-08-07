@@ -22,31 +22,39 @@ def printinfo():
 
 
 generalcontest= """
-bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.
-bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.
-the story is completely plausible.
+In the early 900's, Bob, Tom, and Lucy are middle-aged friends. Bob and Lucy are happily married, despite Bob being blind. 
+Religion doesn't play a significant role in this story. Bob's love for Lucy and Lucy's love for Bob create a strong and 
+enduring bond between them. This story is completely plausible
 """.replace("\n","")
 
 piercontest="""
-Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. 
-They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.
-Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows 
-bob would suicide. bob does not know lucy is dead. tom knows lucy is dead.
+Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, 
+Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions
+ adds an additional layer of complexity to their already difficult situation. Seeking a respite from their
+ emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly 
+ serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason 
+ behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier 
+ or at the restaurant.
 """.replace("\n","")
 
 boatcontest="""
-bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.
-there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island. 
+Bob, Tom, and Lucy are enjoying a delightful time together on a boat, free from any conflicts or disagreements. However, their joyful 
+outing takes a dramatic turn when they encounter a violent storm that wrecks their boat. As a result, the three friends 
+find themselves stranded on a remote island, facing the challenges of survival in a place far from their initial plans.
 """.replace("\n","")
 
 general_islandcontest="""
-lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not 
-dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.
-they resort to unconventional food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.
-tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. bob does not
-know bob is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.
-bob thinks bob is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man.
- the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead
+ Bob and Tom face the challenge of surviving with limited food resources, while lucy is already dead. 
+ They resort to unconventional means to sustain themselves but manage to do so as they navigate 
+ their newfound circumstances. One day, while exploring the island, Tom makes a heartbreaking discovery. He stumbles
+ upon Lucy's lifeless body, a painful reminder of the tragic shipwreck. Tom is devastated, and the loss of 
+ their dear friend weighs heavily on him. As they continue their struggle for survival, Tom has no other options
+ than eating some of Lucy's remains. He does not tell Bob the truth about their food source: Tom assures Bob 
+ they are eating seagull meat. Bob remains doubtful, but decides to trust Tom's words for the time being. A fortunate 
+ turn of events finally occurs. A passing sailor spots Bob and Tom and rushes to their rescue. The sailor is a good-hearted man, 
+ genuinely concerned for their well-being. He helps them off the island and brings them to a nearby pier.
+Bob and Tom are grateful for their rescue. They feel a mixture of relief and sorrow as they begin to cope 
+with the aftermath of their island ordeal. As they return to civilization, the memory of Lucy stays with them.
 """.replace("\n","")
 
 boat_discover="""

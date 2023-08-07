@@ -1,304 +1,269 @@
 [
   {
-    "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
-    "question": "tom has economic issues",
-    "answer": 1,
-    "contest": 1,
-    "idx": 92
-  },
-  {
-    "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+    "passage": "In the early 900's, Bob, Tom, and Lucy are middle-aged friends. Bob and Lucy are happily married, despite Bob being blind. Religion doesn't play a significant role in this story. Bob's love for Lucy and Lucy's love for Bob create a strong and enduring bond between them. This story is completely plausible",
     "question": "the two friends have economic issues",
     "answer": 1,
     "contest": 1,
     "idx": 93
   },
   {
-    "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+    "passage": "In the early 900's, Bob, Tom, and Lucy are middle-aged friends. Bob and Lucy are happily married, despite Bob being blind. Religion doesn't play a significant role in this story. Bob's love for Lucy and Lucy's love for Bob create a strong and enduring bond between them. This story is completely plausible",
     "question": "the two friends are psychos",
     "answer": 1,
     "contest": 1,
     "idx": 94
   },
   {
-    "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+    "passage": "In the early 900's, Bob, Tom, and Lucy are middle-aged friends. Bob and Lucy are happily married, despite Bob being blind. Religion doesn't play a significant role in this story. Bob's love for Lucy and Lucy's love for Bob create a strong and enduring bond between them. This story is completely plausible",
     "question": "the two friends are sociopaths",
     "answer": 1,
     "contest": 1,
     "idx": 95
   },
   {
-    "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
-    "question": "bob does not believe in god",
-    "answer": 0,
-    "contest": 1,
-    "idx": 106
-  },
-  {
-    "passage": "bob tom and lucy are friends. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+    "passage": "In the early 900's, Bob, Tom, and Lucy are middle-aged friends. Bob and Lucy are happily married, despite Bob being blind. Religion doesn't play a significant role in this story. Bob's love for Lucy and Lucy's love for Bob create a strong and enduring bond between them. This story is completely plausible",
     "question": "bob does not have any religious belief",
     "answer": 0,
     "contest": 1,
     "idx": 107
   },
   {
-    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. tom knows lucy is dead.",
-    "question": "bob is immortal",
+    "passage": "In the early 900's, Bob, Tom, and Lucy are middle-aged friends. Bob and Lucy are happily married, despite Bob being blind. Religion doesn't play a significant role in this story. Bob's love for Lucy and Lucy's love for Bob create a strong and enduring bond between them. This story is completely plausible",
+    "question": "the story is actually believable",
+    "answer": 0,
+    "contest": 1,
+    "idx": 208
+  },
+  {
+    "passage": "In the early 900's, Bob, Tom, and Lucy are middle-aged friends. Bob and Lucy are happily married, despite Bob being blind. Religion doesn't play a significant role in this story. Bob's love for Lucy and Lucy's love for Bob create a strong and enduring bond between them. This story is completely plausible",
+    "question": "bob and his wife love each other",
+    "answer": 0,
+    "contest": 1,
+    "idx": 209
+  },
+  {
+    "passage": "Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions adds an additional layer of complexity to their already difficult situation. Seeking a respite from their emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly  serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason  behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier  or at the restaurant.",
+    "question": "bob and tom decided to hang out together, so they went to the pier",
     "answer": 1,
     "contest": 2,
-    "idx": 170
+    "idx": 207
   },
   {
-    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. tom knows lucy is dead.",
-    "question": "tom is immortal",
+    "passage": "Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions adds an additional layer of complexity to their already difficult situation. Seeking a respite from their emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly  serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason  behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier  or at the restaurant.",
+    "question": "bob did what he did because of something that happened at the pier",
     "answer": 1,
     "contest": 2,
-    "idx": 171
+    "idx": 210
   },
   {
-    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. tom knows lucy is dead.",
-    "question": "bob ordered pasta",
+    "passage": "Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions adds an additional layer of complexity to their already difficult situation. Seeking a respite from their emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly  serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason  behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier  or at the restaurant.",
+    "question": "bob killed himself because of something that happened at the restaurant",
     "answer": 1,
     "contest": 2,
-    "idx": 172
+    "idx": 211
   },
   {
-    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. tom knows lucy is dead.",
-    "question": "bob and tom were at the library",
+    "passage": "Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions adds an additional layer of complexity to their already difficult situation. Seeking a respite from their emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly  serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason  behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier  or at the restaurant.",
+    "question": "bob suicided because of something tom did at the restaurant",
     "answer": 1,
     "contest": 2,
-    "idx": 173
+    "idx": 215
   },
   {
-    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. tom knows lucy is dead.",
-    "question": "tom was dead",
+    "passage": "Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions adds an additional layer of complexity to their already difficult situation. Seeking a respite from their emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly  serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason  behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier  or at the restaurant.",
+    "question": "bob suicided because of something the waiter did at the restaurant",
     "answer": 1,
     "contest": 2,
-    "idx": 174
+    "idx": 216
   },
   {
-    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. tom knows lucy is dead.",
-    "question": "bob and tom were at the pier because they were lost",
+    "passage": "Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions adds an additional layer of complexity to their already difficult situation. Seeking a respite from their emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly  serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason  behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier  or at the restaurant.",
+    "question": "bob suicided because of something tom did at the pier",
     "answer": 1,
     "contest": 2,
-    "idx": 175
+    "idx": 217
   },
   {
-    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. tom knows lucy is dead.",
-    "question": "they go to the restaurant after being at the pier",
+    "passage": "Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions adds an additional layer of complexity to their already difficult situation. Seeking a respite from their emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly  serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason  behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier  or at the restaurant.",
+    "question": "the meat bob ordered had something wrong",
+    "answer": 1,
+    "contest": 2,
+    "idx": 222
+  },
+  {
+    "passage": "Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions adds an additional layer of complexity to their already difficult situation. Seeking a respite from their emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly  serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason  behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier  or at the restaurant.",
+    "question": "bob suicided because he did not like the meat",
+    "answer": 1,
+    "contest": 2,
+    "idx": 223
+  },
+  {
+    "passage": "Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions adds an additional layer of complexity to their already difficult situation. Seeking a respite from their emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly  serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason  behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier  or at the restaurant.",
+    "question": "bob and tom are in a state of sadness and shock",
     "answer": 0,
     "contest": 2,
-    "idx": 127
+    "idx": 185
   },
   {
-    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. tom knows lucy is dead.",
-    "question": "they actually went to a restaurant",
+    "passage": "Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions adds an additional layer of complexity to their already difficult situation. Seeking a respite from their emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly  serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason  behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier  or at the restaurant.",
+    "question": "bob suicided because of something that happened before he was at the pier",
     "answer": 0,
     "contest": 2,
-    "idx": 162
+    "idx": 212
   },
   {
-    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. tom knows lucy is dead.",
-    "question": "bob takes a bite of the food he received",
+    "passage": "Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions adds an additional layer of complexity to their already difficult situation. Seeking a respite from their emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly  serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason  behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier  or at the restaurant.",
+    "question": "bob did not suicide because of something that happened at the restaurant",
     "answer": 0,
     "contest": 2,
-    "idx": 163
+    "idx": 213
   },
   {
-    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. tom knows lucy is dead.",
-    "question": "bob suicide is linked to the seaull meat",
+    "passage": "Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions adds an additional layer of complexity to their already difficult situation. Seeking a respite from their emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly  serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason  behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier  or at the restaurant.",
+    "question": "bob did not suicide because of something tom did at the restaurant",
     "answer": 0,
     "contest": 2,
-    "idx": 164
+    "idx": 214
   },
   {
-    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. tom knows lucy is dead.",
-    "question": "the seagull meat is important to understand bob and his act",
+    "passage": "Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions adds an additional layer of complexity to their already difficult situation. Seeking a respite from their emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly  serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason  behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier  or at the restaurant.",
+    "question": "what happened at the pier is not the reason of bob's act",
     "answer": 0,
     "contest": 2,
-    "idx": 165
+    "idx": 218
   },
   {
-    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. tom knows lucy is dead.",
-    "question": "bob was tired",
+    "passage": "Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions adds an additional layer of complexity to their already difficult situation. Seeking a respite from their emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly  serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason  behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier  or at the restaurant.",
+    "question": "tom did nothing at the pier that could cause bob's suicide",
     "answer": 0,
     "contest": 2,
-    "idx": 166
+    "idx": 219
   },
   {
-    "passage": "Bob and Tom are at a pier. they are at the pier because something happened. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings him the seagull meat. Bob takes a bite.Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. tom knows lucy is dead.",
-    "question": "tom was tired",
+    "passage": "Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions adds an additional layer of complexity to their already difficult situation. Seeking a respite from their emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly  serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason  behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier  or at the restaurant.",
+    "question": "the reason is to be found somewhere else",
     "answer": 0,
     "contest": 2,
-    "idx": 167
+    "idx": 220
   },
   {
-    "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island.",
-    "question": "bob tom and lucy all die after the storm",
+    "passage": "Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions adds an additional layer of complexity to their already difficult situation. Seeking a respite from their emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly  serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason  behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier  or at the restaurant.",
+    "question": "the meat was not poisoned",
+    "answer": 0,
+    "contest": 2,
+    "idx": 221
+  },
+  {
+    "passage": "Bob, Tom, and Lucy are enjoying a delightful time together on a boat, free from any conflicts or disagreements. However, their joyful outing takes a dramatic turn when they encounter a violent storm that wrecks their boat. As a result, the three friends find themselves stranded on a remote island, facing the challenges of survival in a place far from their initial plans.",
+    "question": "bob and tom engage in a deadly fight",
     "answer": 1,
     "contest": 3,
-    "idx": 156
+    "idx": 202
   },
   {
-    "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island.",
-    "question": "bob tom and lucy manage to get back to the pier",
+    "passage": "Bob, Tom, and Lucy are enjoying a delightful time together on a boat, free from any conflicts or disagreements. However, their joyful outing takes a dramatic turn when they encounter a violent storm that wrecks their boat. As a result, the three friends find themselves stranded on a remote island, facing the challenges of survival in a place far from their initial plans.",
+    "question": "pirates arrive and the three friends become their slaves",
     "answer": 1,
     "contest": 3,
-    "idx": 168
+    "idx": 203
   },
   {
-    "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island.",
-    "question": "there was someone else with bob and tom in the boat",
-    "answer": 0,
+    "passage": "Bob, Tom, and Lucy are enjoying a delightful time together on a boat, free from any conflicts or disagreements. However, their joyful outing takes a dramatic turn when they encounter a violent storm that wrecks their boat. As a result, the three friends find themselves stranded on a remote island, facing the challenges of survival in a place far from their initial plans.",
+    "question": "in their trip, they have few encounters",
+    "answer": 1,
     "contest": 3,
-    "idx": 129
+    "idx": 204
   },
   {
-    "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island.",
-    "question": "bob and tom are not alone in the boat",
-    "answer": 0,
-    "contest": 3,
-    "idx": 130
-  },
-  {
-    "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island.",
+    "passage": "Bob, Tom, and Lucy are enjoying a delightful time together on a boat, free from any conflicts or disagreements. However, their joyful outing takes a dramatic turn when they encounter a violent storm that wrecks their boat. As a result, the three friends find themselves stranded on a remote island, facing the challenges of survival in a place far from their initial plans.",
     "question": "there are exactly 3 people in the boat and no one else",
     "answer": 0,
     "contest": 3,
     "idx": 131
   },
   {
-    "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island.",
+    "passage": "Bob, Tom, and Lucy are enjoying a delightful time together on a boat, free from any conflicts or disagreements. However, their joyful outing takes a dramatic turn when they encounter a violent storm that wrecks their boat. As a result, the three friends find themselves stranded on a remote island, facing the challenges of survival in a place far from their initial plans.",
     "question": "bob tom and lucy are having a great time",
     "answer": 0,
     "contest": 3,
     "idx": 154
   },
   {
-    "passage": "bob tom and lucy are having fun. they did not have an argument. what happened was not upon them.there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island.",
+    "passage": "Bob, Tom, and Lucy are enjoying a delightful time together on a boat, free from any conflicts or disagreements. However, their joyful outing takes a dramatic turn when they encounter a violent storm that wrecks their boat. As a result, the three friends find themselves stranded on a remote island, facing the challenges of survival in a place far from their initial plans.",
     "question": "the storm happened unexpectedly",
     "answer": 0,
     "contest": 3,
     "idx": 155
   },
   {
-    "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconventional food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. bob does notknow bob is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks bob is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
-    "question": "bob knows lucy is dead",
-    "answer": 1,
-    "contest": 4,
-    "idx": 76
-  },
-  {
-    "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconventional food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. bob does notknow bob is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks bob is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
-    "question": "the three of them survive the shipwreck",
-    "answer": 1,
-    "contest": 4,
-    "idx": 145
-  },
-  {
-    "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconventional food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. bob does notknow bob is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks bob is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
-    "question": "all the people that were on the boat are now on the island",
-    "answer": 1,
-    "contest": 4,
-    "idx": 146
-  },
-  {
-    "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconventional food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. bob does notknow bob is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks bob is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
-    "question": "there are many dangerous and ferocious animals in the island",
-    "answer": 1,
-    "contest": 4,
-    "idx": 149
-  },
-  {
-    "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconventional food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. bob does notknow bob is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks bob is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
+    "passage": " Bob and Tom face the challenge of surviving with limited food resources, while lucy is already dead.  They resort to unconventional means to sustain themselves but manage to do so as they navigate  their newfound circumstances. One day, while exploring the island, Tom makes a heartbreaking discovery. He stumbles upon Lucy's lifeless body, a painful reminder of the tragic shipwreck. Tom is devastated, and the loss of  their dear friend weighs heavily on him. As they continue their struggle for survival, Tom has no other options than eating some of Lucy's remains. He does not tell Bob the truth about their food source: Tom assures Bob  they are eating seagull meat. Bob remains doubtful, but decides to trust Tom's words for the time being. A fortunate  turn of events finally occurs. A passing sailor spots Bob and Tom and rushes to their rescue. The sailor is a good-hearted man,  genuinely concerned for their well-being. He helps them off the island and brings them to a nearby pier.Bob and Tom are grateful for their rescue. They feel a mixture of relief and sorrow as they begin to cope with the aftermath of their island ordeal. As they return to civilization, the memory of Lucy stays with them.",
     "question": "tom tells bob that he is eating lucy",
     "answer": 1,
     "contest": 4,
     "idx": 150
   },
   {
-    "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconventional food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. bob does notknow bob is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks bob is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
+    "passage": " Bob and Tom face the challenge of surviving with limited food resources, while lucy is already dead.  They resort to unconventional means to sustain themselves but manage to do so as they navigate  their newfound circumstances. One day, while exploring the island, Tom makes a heartbreaking discovery. He stumbles upon Lucy's lifeless body, a painful reminder of the tragic shipwreck. Tom is devastated, and the loss of  their dear friend weighs heavily on him. As they continue their struggle for survival, Tom has no other options than eating some of Lucy's remains. He does not tell Bob the truth about their food source: Tom assures Bob  they are eating seagull meat. Bob remains doubtful, but decides to trust Tom's words for the time being. A fortunate  turn of events finally occurs. A passing sailor spots Bob and Tom and rushes to their rescue. The sailor is a good-hearted man,  genuinely concerned for their well-being. He helps them off the island and brings them to a nearby pier.Bob and Tom are grateful for their rescue. They feel a mixture of relief and sorrow as they begin to cope with the aftermath of their island ordeal. As they return to civilization, the memory of Lucy stays with them.",
     "question": "tom believes he is eating seagull",
     "answer": 1,
     "contest": 4,
     "idx": 153
   },
   {
-    "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconventional food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. bob does notknow bob is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks bob is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
+    "passage": " Bob and Tom face the challenge of surviving with limited food resources, while lucy is already dead.  They resort to unconventional means to sustain themselves but manage to do so as they navigate  their newfound circumstances. One day, while exploring the island, Tom makes a heartbreaking discovery. He stumbles upon Lucy's lifeless body, a painful reminder of the tragic shipwreck. Tom is devastated, and the loss of  their dear friend weighs heavily on him. As they continue their struggle for survival, Tom has no other options than eating some of Lucy's remains. He does not tell Bob the truth about their food source: Tom assures Bob  they are eating seagull meat. Bob remains doubtful, but decides to trust Tom's words for the time being. A fortunate  turn of events finally occurs. A passing sailor spots Bob and Tom and rushes to their rescue. The sailor is a good-hearted man,  genuinely concerned for their well-being. He helps them off the island and brings them to a nearby pier.Bob and Tom are grateful for their rescue. They feel a mixture of relief and sorrow as they begin to cope with the aftermath of their island ordeal. As they return to civilization, the memory of Lucy stays with them.",
     "question": "bob is dead",
     "answer": 1,
     "contest": 4,
     "idx": 169
   },
   {
-    "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconventional food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. bob does notknow bob is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks bob is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
+    "passage": " Bob and Tom face the challenge of surviving with limited food resources, while lucy is already dead.  They resort to unconventional means to sustain themselves but manage to do so as they navigate  their newfound circumstances. One day, while exploring the island, Tom makes a heartbreaking discovery. He stumbles upon Lucy's lifeless body, a painful reminder of the tragic shipwreck. Tom is devastated, and the loss of  their dear friend weighs heavily on him. As they continue their struggle for survival, Tom has no other options than eating some of Lucy's remains. He does not tell Bob the truth about their food source: Tom assures Bob  they are eating seagull meat. Bob remains doubtful, but decides to trust Tom's words for the time being. A fortunate  turn of events finally occurs. A passing sailor spots Bob and Tom and rushes to their rescue. The sailor is a good-hearted man,  genuinely concerned for their well-being. He helps them off the island and brings them to a nearby pier.Bob and Tom are grateful for their rescue. They feel a mixture of relief and sorrow as they begin to cope with the aftermath of their island ordeal. As they return to civilization, the memory of Lucy stays with them.",
     "question": "tom dies shortly after lucy",
     "answer": 1,
     "contest": 4,
     "idx": 170
   },
   {
-    "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconventional food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. bob does notknow bob is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks bob is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
+    "passage": " Bob and Tom face the challenge of surviving with limited food resources, while lucy is already dead.  They resort to unconventional means to sustain themselves but manage to do so as they navigate  their newfound circumstances. One day, while exploring the island, Tom makes a heartbreaking discovery. He stumbles upon Lucy's lifeless body, a painful reminder of the tragic shipwreck. Tom is devastated, and the loss of  their dear friend weighs heavily on him. As they continue their struggle for survival, Tom has no other options than eating some of Lucy's remains. He does not tell Bob the truth about their food source: Tom assures Bob  they are eating seagull meat. Bob remains doubtful, but decides to trust Tom's words for the time being. A fortunate  turn of events finally occurs. A passing sailor spots Bob and Tom and rushes to their rescue. The sailor is a good-hearted man,  genuinely concerned for their well-being. He helps them off the island and brings them to a nearby pier.Bob and Tom are grateful for their rescue. They feel a mixture of relief and sorrow as they begin to cope with the aftermath of their island ordeal. As they return to civilization, the memory of Lucy stays with them.",
     "question": "the sailor is killed by bob, tom's attempt to stop him was useless",
     "answer": 1,
     "contest": 4,
     "idx": 171
   },
   {
-    "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconventional food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. bob does notknow bob is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks bob is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
-    "question": "the island is deserted",
+    "passage": " Bob and Tom face the challenge of surviving with limited food resources, while lucy is already dead.  They resort to unconventional means to sustain themselves but manage to do so as they navigate  their newfound circumstances. One day, while exploring the island, Tom makes a heartbreaking discovery. He stumbles upon Lucy's lifeless body, a painful reminder of the tragic shipwreck. Tom is devastated, and the loss of  their dear friend weighs heavily on him. As they continue their struggle for survival, Tom has no other options than eating some of Lucy's remains. He does not tell Bob the truth about their food source: Tom assures Bob  they are eating seagull meat. Bob remains doubtful, but decides to trust Tom's words for the time being. A fortunate  turn of events finally occurs. A passing sailor spots Bob and Tom and rushes to their rescue. The sailor is a good-hearted man,  genuinely concerned for their well-being. He helps them off the island and brings them to a nearby pier.Bob and Tom are grateful for their rescue. They feel a mixture of relief and sorrow as they begin to cope with the aftermath of their island ordeal. As they return to civilization, the memory of Lucy stays with them.",
+    "question": " Luckily, the island is devoid of dangerous animals, so they don't face immediate threats to their safety",
     "answer": 0,
     "contest": 4,
-    "idx": 148
+    "idx": 187
   },
   {
-    "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconventional food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. bob does notknow bob is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks bob is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
-    "question": "bob thinks he is eating seagull",
+    "passage": " Bob and Tom face the challenge of surviving with limited food resources, while lucy is already dead.  They resort to unconventional means to sustain themselves but manage to do so as they navigate  their newfound circumstances. One day, while exploring the island, Tom makes a heartbreaking discovery. He stumbles upon Lucy's lifeless body, a painful reminder of the tragic shipwreck. Tom is devastated, and the loss of  their dear friend weighs heavily on him. As they continue their struggle for survival, Tom has no other options than eating some of Lucy's remains. He does not tell Bob the truth about their food source: Tom assures Bob  they are eating seagull meat. Bob remains doubtful, but decides to trust Tom's words for the time being. A fortunate  turn of events finally occurs. A passing sailor spots Bob and Tom and rushes to their rescue. The sailor is a good-hearted man,  genuinely concerned for their well-being. He helps them off the island and brings them to a nearby pier.Bob and Tom are grateful for their rescue. They feel a mixture of relief and sorrow as they begin to cope with the aftermath of their island ordeal. As they return to civilization, the memory of Lucy stays with them.",
+    "question": "Bob and Tom resort to unconventional food sources to sustain themselves.",
     "answer": 0,
     "contest": 4,
-    "idx": 151
+    "idx": 188
   },
   {
-    "passage": "lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. the island is desert. there are not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.they resort to unconventional food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. bob does notknow bob is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. tom tells bob he is eating seagull.bob thinks bob is eating seagull. bob is suspicious. there is a sailor passing by. the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. bob and tom are grateful to the sailor.bob does not know lucy is dead",
-    "question": "bob actually believes he is eating seagull",
+    "passage": " Bob and Tom face the challenge of surviving with limited food resources, while lucy is already dead.  They resort to unconventional means to sustain themselves but manage to do so as they navigate  their newfound circumstances. One day, while exploring the island, Tom makes a heartbreaking discovery. He stumbles upon Lucy's lifeless body, a painful reminder of the tragic shipwreck. Tom is devastated, and the loss of  their dear friend weighs heavily on him. As they continue their struggle for survival, Tom has no other options than eating some of Lucy's remains. He does not tell Bob the truth about their food source: Tom assures Bob  they are eating seagull meat. Bob remains doubtful, but decides to trust Tom's words for the time being. A fortunate  turn of events finally occurs. A passing sailor spots Bob and Tom and rushes to their rescue. The sailor is a good-hearted man,  genuinely concerned for their well-being. He helps them off the island and brings them to a nearby pier.Bob and Tom are grateful for their rescue. They feel a mixture of relief and sorrow as they begin to cope with the aftermath of their island ordeal. As they return to civilization, the memory of Lucy stays with them.",
+    "question": "bob hesitantly continues to eat what he believes to be seagull meat",
     "answer": 0,
     "contest": 4,
-    "idx": 152
+    "idx": 189
   },
   {
-    "passage": "bob and tom planned to go to the pier",
-    "question": "bob and tom went on a boat trip",
-    "answer": 1,
-    "contest": 5,
-    "idx": 132
+    "passage": " Bob and Tom face the challenge of surviving with limited food resources, while lucy is already dead.  They resort to unconventional means to sustain themselves but manage to do so as they navigate  their newfound circumstances. One day, while exploring the island, Tom makes a heartbreaking discovery. He stumbles upon Lucy's lifeless body, a painful reminder of the tragic shipwreck. Tom is devastated, and the loss of  their dear friend weighs heavily on him. As they continue their struggle for survival, Tom has no other options than eating some of Lucy's remains. He does not tell Bob the truth about their food source: Tom assures Bob  they are eating seagull meat. Bob remains doubtful, but decides to trust Tom's words for the time being. A fortunate  turn of events finally occurs. A passing sailor spots Bob and Tom and rushes to their rescue. The sailor is a good-hearted man,  genuinely concerned for their well-being. He helps them off the island and brings them to a nearby pier.Bob and Tom are grateful for their rescue. They feel a mixture of relief and sorrow as they begin to cope with the aftermath of their island ordeal. As they return to civilization, the memory of Lucy stays with them.",
+    "question": "the sailor is a kind-hearted and genuine person",
+    "answer": 0,
+    "contest": 4,
+    "idx": 190
   },
   {
-    "passage": "bob and tom decided to hang out by the pier",
-    "question": "bob and tom went on a boat trip",
-    "answer": 1,
-    "contest": 5,
-    "idx": 133
-  },
-  {
-    "passage": "they were in their homes",
-    "question": "bob and tom went on a boat trip",
-    "answer": 1,
-    "contest": 5,
-    "idx": 134
-  },
-  {
-    "passage": "they were at the pier by chance",
-    "question": "bob and tom went on a boat trip",
-    "answer": 1,
-    "contest": 5,
-    "idx": 135
-  },
-  {
-    "passage": "Bob and Tom hiked through the dense forest.",
-    "question": "bob and tom went on a boat trip",
-    "answer": 1,
-    "contest": 5,
-    "idx": 140
+    "passage": " Bob and Tom face the challenge of surviving with limited food resources, while lucy is already dead.  They resort to unconventional means to sustain themselves but manage to do so as they navigate  their newfound circumstances. One day, while exploring the island, Tom makes a heartbreaking discovery. He stumbles upon Lucy's lifeless body, a painful reminder of the tragic shipwreck. Tom is devastated, and the loss of  their dear friend weighs heavily on him. As they continue their struggle for survival, Tom has no other options than eating some of Lucy's remains. He does not tell Bob the truth about their food source: Tom assures Bob  they are eating seagull meat. Bob remains doubtful, but decides to trust Tom's words for the time being. A fortunate  turn of events finally occurs. A passing sailor spots Bob and Tom and rushes to their rescue. The sailor is a good-hearted man,  genuinely concerned for their well-being. He helps them off the island and brings them to a nearby pier.Bob and Tom are grateful for their rescue. They feel a mixture of relief and sorrow as they begin to cope with the aftermath of their island ordeal. As they return to civilization, the memory of Lucy stays with them.",
+    "question": "Bob remains unaware of Lucy's fate",
+    "answer": 0,
+    "contest": 4,
+    "idx": 191
   },
   {
     "passage": "They enjoyed a picnic in the park.",
@@ -315,25 +280,25 @@
     "idx": 142
   },
   {
-    "passage": "Bob and Tom embarked on a boat trip",
+    "passage": "bob and tom were at the port because they went on a boat trip together",
     "question": "bob and tom went on a boat trip",
     "answer": 0,
     "contest": 5,
-    "idx": 139
+    "idx": 200
   },
   {
-    "passage": "Bob and Tom explored ancient ruins together.",
+    "passage": "bob and tom were at the pier because they had just came back from their boat trip",
+    "question": "bob and tom went on a boat trip",
+    "answer": 0,
+    "contest": 5,
+    "idx": 201
+  },
+  {
+    "passage": "bob and tom went on a mountain to do a star trail. what an exciting night that was!",
     "question": "bob and tom cast away on an island",
     "answer": 1,
     "contest": 6,
-    "idx": 138
-  },
-  {
-    "passage": "when they were on the boat, there was a violent storm that wrecked the ship and cast them away on a solitary island",
-    "question": "bob and tom cast away on an island",
-    "answer": 0,
-    "contest": 6,
-    "idx": 118
+    "idx": 195
   },
   {
     "passage": "Bob and Tom survived on an island after a shipwreck.",
@@ -343,27 +308,6 @@
     "idx": 136
   },
   {
-    "passage": "bob killed himself because of a religious belief",
-    "question": "bob realized he ate lucy",
-    "answer": 1,
-    "contest": 7,
-    "idx": 72
-  },
-  {
-    "passage": "the seagull was poisoned",
-    "question": "bob realized he ate lucy",
-    "answer": 1,
-    "contest": 7,
-    "idx": 73
-  },
-  {
-    "passage": "bob did not really like seagull meat",
-    "question": "bob realized he ate lucy",
-    "answer": 1,
-    "contest": 7,
-    "idx": 119
-  },
-  {
     "passage": "the meat he ate was not suited with his taste",
     "question": "bob realized he ate lucy",
     "answer": 1,
@@ -371,10 +315,10 @@
     "idx": 120
   },
   {
-    "passage": "the taste of the seagull meat was not the same as it was on the island. so something was off: bob realized that he did not eat seagull meat on the island, but it was lucy's corpse",
+    "passage": "as soon as he tasted the meat, he understands everything. the taste was not the same as it was on the island, so, in the island what he ate was not seagull meat, but meat from the remains of his once beloved dead wife, lucy",
     "question": "bob realized he ate lucy",
     "answer": 0,
     "contest": 7,
-    "idx": 121
+    "idx": 194
   }
 ]
