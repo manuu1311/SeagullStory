@@ -6,7 +6,7 @@ from transformers import TFAutoModelForSequenceClassification, AutoTokenizer
 import numpy as np
 
 #loading model and tokenizer
-checkpoint="distilbert-base-uncased"
+checkpoint="electra-base-discriminator"
 path="/distilbert"
 model = TFAutoModelForSequenceClassification.from_pretrained(f'{dirname(__file__)}/distilbert/')
 tokenizer = AutoTokenizer.from_pretrained(checkpoint)
