@@ -10,7 +10,8 @@ def add_to_json(passage,question,label,contest):
     'idx' : len(ent_dataset)+len(not_ent_dataset)
     }
     if(data_ins['answer'])==0: ent_dataset.append(data_ins)
-    else: not_ent_dataset.append(data_ins)
+    elif data_ins['answer']==2: not_ent_dataset.append(data_ins)
+    else:neutral_dataset.append(data_ins)
 
 def printinfo():
     print(f'Dataset length: {len(ent_dataset)+len(not_ent_dataset)+len(neutral_dataset)}')
@@ -19,7 +20,7 @@ def printinfo():
         yes=utils.getinfo(ent_dataset,i+1)
         no=utils.getinfo(not_ent_dataset,i+1)
         neu=utils.getinfo(neutral_dataset,i+1)
-        print(f'   {i+1}   \t {yes} \t{no}\t   {neu}')
+        print(f'   {i+1}   \t {yes} \t{no}\t       {neu}')
 
 
 generalcontest= """
