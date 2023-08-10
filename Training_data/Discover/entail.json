@@ -1,0 +1,147 @@
+{
+    "passage": "they had a boat trip before being at the pier",
+    "question": "bob and tom went on a boat trip",
+    "answer": 0,
+    "contest": 5,
+    "idx": 64
+  },
+  {
+    "passage": "they are in the sea in a boat",
+    "question": "bob and tom went on a boat trip",
+    "answer": 0,
+    "contest": 5,
+    "idx": 103
+  },
+  {
+    "passage": "they had a trip by boat",
+    "question": "bob and tom went on a boat trip",
+    "answer": 0,
+    "contest": 5,
+    "idx": 115
+  },
+  {
+    "passage": "Bob and Tom embarked on a boat trip",
+    "question": "bob and tom went on a boat trip",
+    "answer": 0,
+    "contest": 5,
+    "idx": 139
+  },
+  {
+    "passage": "bob tom and lucy have been waiting for this very moment, that day it finally became true: they finally went on this boat trip that they have been organizing together",
+    "question": "bob and tom went on a boat trip",
+    "answer": 0,
+    "contest": 5,
+    "idx": 196
+  },
+  {
+    "passage": "all went according to their initial plans. they went on their boat trip and they all had a lot of fun",
+    "question": "bob and tom went on a boat trip",
+    "answer": 0,
+    "contest": 5,
+    "idx": 197
+  },
+  {
+    "passage": "bob tom and lucy went on the boat trip together",
+    "question": "bob and tom went on a boat trip",
+    "answer": 0,
+    "contest": 5,
+    "idx": 198
+  },
+  {
+    "passage": "bob and tom went on a boat trip together before being at the port",
+    "question": "bob and tom went on a boat trip",
+    "answer": 0,
+    "contest": 5,
+    "idx": 199
+  },
+  {
+    "passage": "bob and tom were at the port because they went on a boat trip together",
+    "question": "bob and tom went on a boat trip",
+    "answer": 0,
+    "contest": 5,
+    "idx": 200
+  },
+  {
+    "passage": "bob and tom were at the pier because they had just came back from their boat trip",
+    "question": "bob and tom went on a boat trip",
+    "answer": 0,
+    "contest": 5,
+    "idx": 201
+  },
+  {
+    "passage": "they cast away on an island because of a shipwreck",
+    "question": "bob and tom cast away on an island",
+    "answer": 0,
+    "contest": 6,
+    "idx": 65
+  },
+  {
+    "passage": "there is a thunderstorm the ship is wrecked and they cast away on a solitary island",
+    "question": "bob and tom cast away on an island",
+    "answer": 0,
+    "contest": 6,
+    "idx": 104
+  },
+  {
+    "passage": "a storm cast the two friends away on an island",
+    "question": "bob and tom cast away on an island",
+    "answer": 0,
+    "contest": 6,
+    "idx": 117
+  },
+  {
+    "passage": "when they were on the boat, there was a violent storm that wrecked the ship and cast them away on a solitary island",
+    "question": "bob and tom cast away on an island",
+    "answer": 0,
+    "contest": 6,
+    "idx": 118
+  },
+  {
+    "passage": "Bob and Tom survived on an island after a shipwreck.",
+    "question": "bob and tom cast away on an island",
+    "answer": 0,
+    "contest": 6,
+    "idx": 136
+  },
+  {
+    "passage": "bob now understands that what he ate at the island was lucy and not a seagull",
+    "question": "bob realized he ate lucy",
+    "answer": 0,
+    "contest": 7,
+    "idx": 66
+  },
+  {
+    "passage": "bob couldn't live with the fact that lucy is dead and the remorse that he ate her",
+    "question": "bob realized he ate lucy",
+    "answer": 0,
+    "contest": 7,
+    "idx": 105
+  },
+  {
+    "passage": "the taste of the seagull meat was not the same as it was on the island. so something was off: bob realized that he did not eat seagull meat on the island, but it was lucy's corpse",
+    "question": "bob realized he ate lucy",
+    "answer": 0,
+    "contest": 7,
+    "idx": 121
+  },
+  {
+    "passage": "bob finally understands what he long suspected: he ate lucy's remains",
+    "question": "bob realized he ate lucy",
+    "answer": 0,
+    "contest": 7,
+    "idx": 192
+  },
+  {
+    "passage": "bob sees horror in his blind eyes, he understands why tom was acting so suspiciously: in the island, they had to resort to lucy's dead body in order to survive: he realizes he ate lucy",
+    "question": "bob realized he ate lucy",
+    "answer": 0,
+    "contest": 7,
+    "idx": 193
+  },
+  {
+    "passage": "as soon as he tasted the meat, he understands everything. the taste was not the same as it was on the island, so, in the island what he ate was not seagull meat, but meat from the remains of his once beloved dead wife, lucy",
+    "question": "bob realized he ate lucy",
+    "answer": 0,
+    "contest": 7,
+    "idx": 194
+  }

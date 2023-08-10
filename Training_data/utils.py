@@ -5,7 +5,9 @@ def get_datasets():
         ent_dataset=json.load(f)
     with open("Training_data/not_entail_questions.json","r") as f:
         not_ent_dataset=json.load(f)
-    return ent_dataset,not_ent_dataset
+    with open("Training_data/neutral_questions.json","r") as f:
+        neutral_dataset=json.load(f)
+    return ent_dataset,not_ent_dataset,neutral_dataset
 
 def get_train():
     with open("Training_data/trainset.json","r") as f:

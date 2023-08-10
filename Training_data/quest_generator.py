@@ -13,48 +13,43 @@ def add_to_json(passage,question,label,contest):
     else: not_ent_dataset.append(data_ins)
 
 def printinfo():
-    print(f'Dataset length: {len(ent_dataset)+len(not_ent_dataset)}')
-    print("Contest\tYes\tNo")
+    print(f'Dataset length: {len(ent_dataset)+len(not_ent_dataset)+len(neutral_dataset)}')
+    print("Contest\tYes\tNo\tDoesn't matter")
     for i in range(7):
         yes=utils.getinfo(ent_dataset,i+1)
         no=utils.getinfo(not_ent_dataset,i+1)
-        print(f'   {i+1}   \t {yes} \t{no}')
+        neu=utils.getinfo(neutral_dataset,i+1)
+        print(f'   {i+1}   \t {yes} \t{no}\t   {neu}')
 
 
 generalcontest= """
-In the early 900's, Bob, Tom, and Lucy are middle-aged friends. Bob and Lucy are happily married, despite Bob being blind. 
-Religion doesn't play a significant role in this story. Bob's love for Lucy and Lucy's love for Bob create a strong and 
-enduring bond between them. This story is completely plausible
+bob tom and lucy are friends. they are completely normal people. bob and lucy are married. bob is blind. bob is not religious.
+bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.
+the story is completely plausible.
 """.replace("\n","")
 
 piercontest="""
-Bob and Tom find themselves at the pier due to a distressing event, leaving them feeling sad and shocked. Unaware of Lucy's fate, 
-Bob engages in discussions with Tom, who carries the burden of knowing that Lucy has passed away. The weight of their emotions
- adds an additional layer of complexity to their already difficult situation. Seeking a respite from their
- emotions, they head to a nearby restaurant. Bob, emotionally drained, decides to order seagull meat. The waiter promptly 
- serves Bob the dish, Bob takes a bite. Then, Bob kills himself. Lucy is Bob's wife, the seagull meat was perfectly fine. The reason 
- behind Bob's extreme act is to be found in something that happened long before, not because of something that happened at the pier 
- or at the restaurant.
+Bob and Tom are at the pier because they have been saved from an island by a sailor. they are sad and shocked. 
+They go to a restaurant. Bob orders seagull meat. The waiter brings bob the seagull meat. the seagull meat is perfectly fine. 
+Bob takes a bite. Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. 
+tom knows bob would suicide. bob does not know lucy is dead. bob went to the restaurant to eat seagull, bob had this plan when 
+he was on the island and nothing that happened changed bob's mind.
 """.replace("\n","")
 
 boatcontest="""
-Bob, Tom, and Lucy are enjoying a delightful time together on a boat, free from any conflicts or disagreements. However, their joyful 
-outing takes a dramatic turn when they encounter a violent storm that wrecks their boat. As a result, the three friends 
-find themselves stranded on a remote island, facing the challenges of survival in a place far from their initial plans.
+bob tom and lucy are having fun. they did not have any argument. what happened was not upon them. 
+there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island. 
 """.replace("\n","")
 
 general_islandcontest="""
- Bob and Tom face the challenge of surviving with limited food resources, while lucy is already dead. 
- They resort to unconventional means to sustain themselves but manage to do so as they navigate 
- their newfound circumstances. One day, while exploring the island, Tom makes a heartbreaking discovery. He stumbles
- upon Lucy's lifeless body, a painful reminder of the tragic shipwreck. Tom is devastated, and the loss of 
- their dear friend weighs heavily on him. As they continue their struggle for survival, Tom has no other options
- than eating some of Lucy's remains. He does not tell Bob the truth about their food source: Tom assures Bob 
- they are eating seagull meat. Bob remains doubtful, but decides to trust Tom's words for the time being. A fortunate 
- turn of events finally occurs. A passing sailor spots Bob and Tom and rushes to their rescue. The sailor is a good-hearted man, 
- genuinely concerned for their well-being. He helps them off the island and brings them to a nearby pier.
-Bob and Tom are grateful for their rescue. They feel a mixture of relief and sorrow as they begin to cope 
-with the aftermath of their island ordeal. As they return to civilization, the memory of Lucy stays with them.
+lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. there is no one else on the island. there are 
+not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.
+they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.
+tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. because bob is blind, bob does not
+know he is eating lucy. tom knows he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. 
+tom tells bob he is eating seagull. bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. 
+the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. 
+bob and tom are grateful to the sailor.bob does not know lucy is dead. tom knows lucy is dead.
 """.replace("\n","")
 
 boat_discover="""
@@ -72,7 +67,8 @@ bob realized he ate lucy
 
 entail_path='Training_data/entail_questions.json'
 not_entail_path='Training_data/not_entail_questions.json'
-ent_dataset,not_ent_dataset = utils.get_datasets()
+neutral_path='Training_data/neutral_questions.json'
+ent_dataset,not_ent_dataset,neutral_dataset = utils.get_datasets()
 
 while(True):
     checker=True
@@ -85,8 +81,10 @@ while(True):
     if num==0:
         ent_dataset=utils.order_dataset(ent_dataset)
         not_ent_dataset=utils.order_dataset(not_ent_dataset)
+        neutral_dataset=utils.order_dataset(neutral_dataset)
         utils.save_dataset(ent_dataset,entail_path)
         utils.save_dataset(not_ent_dataset,not_entail_path)
+        utils.save_dataset(neutral_dataset,neutral_path)
         printinfo()
         print("Correctly saved. Closing")
         exit()
@@ -112,13 +110,13 @@ while(True):
     if checker:
         print(f'contest:\n{passage}')
         question=input("Enter question:\n->")
-        label=int(input("Enter answer (0: entailment, 1: not entailment)\n->"))
+        label=int(input("Enter answer (0: entailment, 1: neutral, 2: not entailment)\n->"))
     else:
         print(f'question:\n{question}')
         passage=input("Enter passage:\n->")
-        label=int(input("Enter answer (0: entailment, 1: not entailment)\n->"))
+        label=int(input("Enter answer (0: entailment, 1: neutral, 2: not entailment)\n->"))
     
-    if(label!=0 and label!=1):
+    if(label!=0 and label!=1 and label!=2):
         print("coglione")
         continue
     add_to_json(passage,question,label,num)

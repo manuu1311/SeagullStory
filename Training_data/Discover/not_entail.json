@@ -1,0 +1,147 @@
+{
+    "passage": "they were at home before being at the pier",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 67
+  },
+  {
+    "passage": "they were downtown",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 68
+  },
+  {
+    "passage": "yes",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 114
+  },
+  {
+    "passage": "bob and tom planned to go to the pier",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 132
+  },
+  {
+    "passage": "bob and tom decided to hang out by the pier",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 133
+  },
+  {
+    "passage": "they were in their homes",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 134
+  },
+  {
+    "passage": "they were at the pier by chance",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 135
+  },
+  {
+    "passage": "Bob and Tom hiked through the dense forest.",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 140
+  },
+  {
+    "passage": "They enjoyed a picnic in the park.",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 141
+  },
+  {
+    "passage": "Bob and Tom attended a music concert together.",
+    "question": "bob and tom went on a boat trip",
+    "answer": 1,
+    "contest": 5,
+    "idx": 142
+  },
+  {
+    "passage": "they are in a billionaire's house",
+    "question": "bob and tom cast away on an island",
+    "answer": 1,
+    "contest": 6,
+    "idx": 69
+  },
+  {
+    "passage": "something happened when they were in the boat",
+    "question": "bob and tom cast away on an island",
+    "answer": 1,
+    "contest": 6,
+    "idx": 116
+  },
+  {
+    "passage": "Bob and Tom went camping in the mountains.",
+    "question": "bob and tom cast away on an island",
+    "answer": 1,
+    "contest": 6,
+    "idx": 137
+  },
+  {
+    "passage": "Bob and Tom explored ancient ruins together.",
+    "question": "bob and tom cast away on an island",
+    "answer": 1,
+    "contest": 6,
+    "idx": 138
+  },
+  {
+    "passage": "bob and tom went on a mountain to do a star trail. what an exciting night that was!",
+    "question": "bob and tom cast away on an island",
+    "answer": 1,
+    "contest": 6,
+    "idx": 195
+  },
+  {
+    "passage": "bob killed himself because he was feeling ill",
+    "question": "bob realized he ate lucy",
+    "answer": 1,
+    "contest": 7,
+    "idx": 70
+  },
+  {
+    "passage": "bob did what god wanted him to do",
+    "question": "bob realized he ate lucy",
+    "answer": 1,
+    "contest": 7,
+    "idx": 71
+  },
+  {
+    "passage": "bob killed himself because of a religious belief",
+    "question": "bob realized he ate lucy",
+    "answer": 1,
+    "contest": 7,
+    "idx": 72
+  },
+  {
+    "passage": "the seagull was poisoned",
+    "question": "bob realized he ate lucy",
+    "answer": 1,
+    "contest": 7,
+    "idx": 73
+  },
+  {
+    "passage": "bob did not really like seagull meat",
+    "question": "bob realized he ate lucy",
+    "answer": 1,
+    "contest": 7,
+    "idx": 119
+  },
+  {
+    "passage": "the meat he ate was not suited with his taste",
+    "question": "bob realized he ate lucy",
+    "answer": 1,
+    "contest": 7,
+    "idx": 120
+  }

@@ -1,0 +1,93 @@
+[
+  {
+    "passage": "bob tom and lucy are friends. they are completely normal people. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+    "question": "the story is set in the middle ages",
+    "answer": 1,
+    "contest": 1,
+    "idx": 27
+  },
+  {
+    "passage": "bob tom and lucy are friends. they are completely normal people. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+    "question": "bob has family issues",
+    "answer": 1,
+    "contest": 1,
+    "idx": 54
+  },
+  {
+    "passage": "bob tom and lucy are friends. they are completely normal people. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+    "question": "bob has economic issues",
+    "answer": 1,
+    "contest": 1,
+    "idx": 91
+  },
+  {
+    "passage": "bob tom and lucy are friends. they are completely normal people. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+    "question": "tom has economic issues",
+    "answer": 1,
+    "contest": 1,
+    "idx": 92
+  },
+  {
+    "passage": "bob tom and lucy are friends. they are completely normal people. bob and lucy are married. bob is blind. bob is not religious.bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.the story is completely plausible.",
+    "question": "the two friends have economic issues",
+    "answer": 1,
+    "contest": 1,
+    "idx": 93
+  },
+  {
+    "passage": "Bob and Tom are at the pier because they have been saved from an island by a sailor. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings bob the seagull meat. the seagull meat is perfectly fine. Bob takes a bite. Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. bob went to the restaurant to eat seagull, bob had this plan when he was on the island and nothing that happened changed bob's mind.",
+    "question": "they met someone before going to the restaurant",
+    "answer": 1,
+    "contest": 2,
+    "idx": 83
+  },
+  {
+    "passage": "Bob and Tom are at the pier because they have been saved from an island by a sailor. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings bob the seagull meat. the seagull meat is perfectly fine. Bob takes a bite. Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. bob went to the restaurant to eat seagull, bob had this plan when he was on the island and nothing that happened changed bob's mind.",
+    "question": "bob did not have enough money to pay the restaurant",
+    "answer": 1,
+    "contest": 2,
+    "idx": 90
+  },
+  {
+    "passage": "Bob and Tom are at the pier because they have been saved from an island by a sailor. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings bob the seagull meat. the seagull meat is perfectly fine. Bob takes a bite. Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. bob went to the restaurant to eat seagull, bob had this plan when he was on the island and nothing that happened changed bob's mind.",
+    "question": "tom orders seagull",
+    "answer": 1,
+    "contest": 2,
+    "idx": 178
+  },
+  {
+    "passage": "Bob and Tom are at the pier because they have been saved from an island by a sailor. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings bob the seagull meat. the seagull meat is perfectly fine. Bob takes a bite. Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. bob went to the restaurant to eat seagull, bob had this plan when he was on the island and nothing that happened changed bob's mind.",
+    "question": "tom orders pasta",
+    "answer": 1,
+    "contest": 2,
+    "idx": 179
+  },
+  {
+    "passage": "Bob and Tom are at the pier because they have been saved from an island by a sailor. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings bob the seagull meat. the seagull meat is perfectly fine. Bob takes a bite. Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. bob went to the restaurant to eat seagull, bob had this plan when he was on the island and nothing that happened changed bob's mind.",
+    "question": "the waiter was rude",
+    "answer": 1,
+    "contest": 2,
+    "idx": 51
+  },
+  {
+    "passage": "Bob and Tom are at the pier because they have been saved from an island by a sailor. they are sad and shocked. They go to a restaurant. Bob orders seagull meat. The waiter brings bob the seagull meat. the seagull meat is perfectly fine. Bob takes a bite. Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. tom knows bob would suicide. bob does not know lucy is dead. bob went to the restaurant to eat seagull, bob had this plan when he was on the island and nothing that happened changed bob's mind.",
+    "question": "they met someone at the restaurant",
+    "answer": 1,
+    "contest": 2,
+    "idx": 84
+  },
+  {
+    "passage": "bob tom and lucy are having fun. they did not have any argument. what happened was not upon them. there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island. ",
+    "question": "in their trip, they have few encounters",
+    "answer": 1,
+    "contest": 3,
+    "idx": 204
+  },
+  {
+    "passage": "bob tom and lucy are having fun. they did not have any argument. what happened was not upon them. there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island. ",
+    "question": "someone fell on the water",
+    "answer": 1,
+    "contest": 3,
+    "idx": 15
+  }
+]
