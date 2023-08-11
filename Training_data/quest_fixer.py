@@ -3,7 +3,7 @@ ent_dataset,not_ent_dataset,neutral_dataset=utils.get_datasets()
 
 def printinfo():
     print(f'Dataset length: {len(ent_dataset)+len(not_ent_dataset)+len(neutral_dataset)}')
-    print("Contest\tYes\tNo\tDoesn't matter")
+    print("Contest\tYes\tNo\t     Doesn't matter")
     for i in range(7):
         yes=utils.getinfo(ent_dataset,i+1)
         no=utils.getinfo(not_ent_dataset,i+1)
@@ -21,7 +21,7 @@ contest="""
 lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. there is no one else on the island. there are 
 not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.
 they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.
-tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. because bob is blind, bob does not
+tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. because bob is blind, bob does not 
 know he is eating lucy. tom knows he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. 
 tom tells bob he is eating seagull. bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. 
 the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. 

@@ -24,17 +24,17 @@ def printinfo():
 
 
 generalcontest= """
-bob tom and lucy are friends. they are completely normal people. bob and lucy are married. bob is blind. bob is not religious.
-bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. the story is set in the early 900's.
-the story is completely plausible.
+bob tom and lucy are friends. they are completely normal people. bob and lucy are happily married. bob and lucy are loyal and really  
+love each other, their love is true. bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. bob is blind. 
+bob is not religious. the story is set in the early 900's. the story is completely plausible.
 """.replace("\n","")
 
 piercontest="""
 Bob and Tom are at the pier because they have been saved from an island by a sailor. they are sad and shocked. 
 They go to a restaurant. Bob orders seagull meat. The waiter brings bob the seagull meat. the seagull meat is perfectly fine. 
 Bob takes a bite. Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. 
-tom knows bob would suicide. bob does not know lucy is dead. bob went to the restaurant to eat seagull, bob had this plan when 
-he was on the island and nothing that happened changed bob's mind.
+tom knows bob would suicide. bob does not know lucy is dead. tom knows lucy is dead. 
+bob went to the restaurant to eat seagull, bob had this plan when he was on the island and nothing that happened changed bob's mind.
 """.replace("\n","")
 
 boatcontest="""
@@ -46,7 +46,7 @@ general_islandcontest="""
 lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. there is no one else on the island. there are 
 not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.
 they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.
-tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. because bob is blind, bob does not
+tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. because bob is blind, bob does not 
 know he is eating lucy. tom knows he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. 
 tom tells bob he is eating seagull. bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. 
 the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. 
