@@ -9,6 +9,7 @@ You can ask boolean questions to which you will receive one of the following ans
 "Yes" if it is true  
 "No" if it is not true  
 "Doesn't matter" if what you're asking is not important to understand the whole story.  
+  
 Example: Bob liked the restaurant                                   --Answer: Doesn't matter  
          Bob shot himself because he did not have money to pay      --Answer: No  
   
@@ -20,7 +21,7 @@ and use It with an API. This way, we want to be able to play It as a github app,
 The model base is DeBERTa-v2. It has been fine-tuned on [multi-nli](https://huggingface.co/datasets/multi_nli), [anli](https://huggingface.co/datasets/anli), 
 [fever](https://huggingface.co/datasets/fever) datasets accessible on [🤗Hugging Face](https://huggingface.co/) and [finally our own dataset](link al dataset).  
 
-
+| Functionality                                    | Status |
 | -------------------------------------------------|:------:|  
 | Creating dataset based on our story              |   ✅    |  
 | Find a suitable model                            |   ✅    |  
