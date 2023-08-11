@@ -1,4 +1,4 @@
 __pycache__*
 /API_setup/distilbert/tf_model.h5
-/Training_data/validset.json
-/Training_data/trainset.json
+Training_data/validset.json
+Training_data/trainset.json
