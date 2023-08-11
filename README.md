@@ -12,15 +12,17 @@ You can ask boolean questions to which you will receive one of the following ans
 "No" if it is not true  
 "Doesn't matter" if what you're asking is not important to understand the whole story.  
   
-Example: Bob liked the restaurant                                   --Answer: Doesn't matter  
-         Bob shot himself because he did not have money to pay      --Answer: No  
+Example: Bob liked the restaurant                                   
+--Answer: Doesn't matter  
+         Bob shot himself because he did not have money to pay      
+         --Answer: No  
   
 ## How we approached the problem
 We reduced the problem to a NLI task. We used a BERT-like model fine-tuned on NLI datasets and finally our own dataset. Then, we want to deploy the model 
 and use It with an API. This way, we want to be able to play It as a github app, using a telegram bot and finally make It a mobile app.  
 
 ## The model
-The model base is DeBERTa-v2. It has been fine-tuned on [multi-nli](https://huggingface.co/datasets/multi_nli), [anli](https://huggingface.co/datasets/anli), 
+The model base is [DeBERTa-v3](https://huggingface.co/microsoft/deberta-v3-base). It has been fine-tuned on [multi-nli](https://huggingface.co/datasets/multi_nli), [anli](https://huggingface.co/datasets/anli), 
 [fever](https://huggingface.co/datasets/fever) datasets accessible on [🤗Hugging Face](https://huggingface.co/) and [finally our own dataset](https://github.com/manuu1311/SeagullStory/tree/main/Training_data).  
 
 |                                                  |        |
