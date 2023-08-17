@@ -4,16 +4,17 @@ ent,not_ent,neut=utils.get_datasets()
 
 trainset=[]
 validset=[]
+percentage=1
 for i in range(7):
     truecont=utils.getinfo(ent,i+1)
     falsecont=utils.getinfo(not_ent,i+1)
     neutcont=utils.getinfo(neut,i+1)
     if truecont<=falsecont and truecont<=neutcont:
-        num=round(truecont*0.8)
+        num=round(truecont*percentage)
     elif falsecont<=neutcont:
-        num=round(falsecont*0.8)
+        num=round(falsecont*percentage)
     else:
-        num=round(neutcont*0.8)
+        num=round(neutcont*percentage)
     
     ent_temp=ent[:truecont]
     notent_temp=not_ent[:falsecont]

@@ -1,6 +1,7 @@
 #TODO: where the api will be called, need to handle all contests and pre-processing
-from API_setup.Answer_processing import get_predict
-
+#from API_setup.Answer_processing import get_predict
+from App import ui
+from App.GUI import controller
 
 
 #initializing all contests
@@ -53,6 +54,7 @@ final_discover="""
 bob realized he ate lucy
 """.replace("\n","")
 
+'''
 #true: print the contest before asking the question, false: do not print anything
 print_flag=False
 #where to save the questions asked
@@ -104,4 +106,7 @@ Choose what you want to do!
     with open(quest_path,'a') as f:
         f.write(f'Contest: {num}\nPassage: {passage}\nQuestion: {question}\nAnswer: {response}')
     print(f'Response: {response}')
+'''
 
+gui=controller()
+gui.changescene(ui.Ui_MainWindow()) 

@@ -18,25 +18,40 @@ neutral_path='Training_data/neutral_questions.json'
 #for elem in dataset:
 #    change_label(6,5,elem)
 contest="""
-lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. there is no one else on the island. there are 
-not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.
-they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.
-tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. because bob is blind, bob does not 
-know he is eating lucy. tom knows he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. 
-tom tells bob he is eating seagull. bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. 
-the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. 
-bob and tom are grateful to the sailor.bob does not know lucy is dead. tom knows lucy is dead.
+A kind sailor saved Bob and Tom from an island and brought them to a pier with his boat. Now, they are sad and shocked. Bob does not know lucy  
+is dead, Tom knows Lucy is dead. They go to a restaurant. Bob orders seagull meat. The waiter brings bob the seagull meat. 
+Everything is ordinary. The seagull meat is perfectly fine and edible. After Bob takes a bite, he realizes he had never eaten seagull 
+meat before and because of that Bob kills himself. Tom knew bob would suicide, so he is not surpirsed. Other people at the 
+restaurant were surprised. Bob and tom were exhausted. bob and tom had discussions.  
+Bob wanted to go to the restaurant in order to eat seagull, bob had this plan when he was on the island and nothing 
+that happened changed bob's mind.
 """.replace("\n","")
-num_contest=4
+num_contest=2
 print(contest)
 print(len(contest.split()))
 
-ent_dataset=utils.change_contest(contest,num_contest,ent_dataset)
-not_ent_dataset=utils.change_contest(contest,num_contest,not_ent_dataset)
-neutral_dataset=utils.change_contest(contest,num_contest,neutral_dataset)
+#ent_dataset=utils.change_contest(contest,num_contest,ent_dataset)
+#not_ent_dataset=utils.change_contest(contest,num_contest,not_ent_dataset)
+#neutral_dataset=utils.change_contest(contest,num_contest,neutral_dataset)
+
+for i in range(len(ent_dataset)):
+    ent_dataset[i]['passage']=ent_dataset[i]['passage'].replace("bob","Albert").replace("Bob","Albert").replace("tom","Dave").replace("Tom","Dave")
+    ent_dataset[i]['question']=ent_dataset[i]['question'].replace("bob","Albert").replace("Bob","Albert").replace("tom","Dave").replace("Tom","Dave")
+for i in range(len(not_ent_dataset)):    
+    not_ent_dataset[i]['passage']=not_ent_dataset[i]['passage'].replace("bob","Albert").replace("Bob","Albert").replace("tom","Dave").replace("Tom","Dave")
+    not_ent_dataset[i]['question']=not_ent_dataset[i]['question'].replace("bob","Albert").replace("Bob","Albert").replace("tom","Dave").replace("Tom","Dave")
+for i in range(len(neutral_dataset)):
+    neutral_dataset[i]['passage']=ent_dataset[i]['passage'].replace("bob","Albert").replace("Bob","Albert").replace("tom","Dave").replace("Tom","Dave")
+    neutral_dataset[i]['question']=ent_dataset[i]['question'].replace("bob","Albert").replace("Bob","Albert").replace("tom","Dave").replace("Tom","Dave")
+
+print(ent_dataset[0],ent_dataset[-1])
+print(not_ent_dataset[20])
+print(neutral_dataset[30])
 
 utils.save_dataset(ent_dataset,entail_path)
 utils.save_dataset(not_ent_dataset,not_entail_path)
 utils.save_dataset(neutral_dataset,neutral_path)
+
+
 printinfo()
 

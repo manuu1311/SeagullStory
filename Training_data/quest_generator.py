@@ -24,33 +24,37 @@ def printinfo():
 
 
 generalcontest= """
-bob tom and lucy are friends. they are completely normal people. bob and lucy are happily married. bob and lucy are loyal and really  
-love each other, their love is true. bob loves lucy. lucy loves bob. bob tom and lucy are middle aged. bob is blind. 
-bob is not religious. the story is set in the early 900's. the story is completely plausible.
+Albert Dave and lucy are friends. they are completely normal people. Albert and lucy are happily married. Albert and lucy are 
+loyal and really love each other, their love is true. Albert loves lucy. lucy loves Albert. Albert Dave and lucy are middle aged. 
+Albert is blind. Albert is not religious. 
+the story is set in the early 900's. the story is completely plausible and does not involve anything not realistic.
 """.replace("\n","")
 
 piercontest="""
-Bob and Tom are at the pier because they have been saved from an island by a sailor. they are sad and shocked. 
-They go to a restaurant. Bob orders seagull meat. The waiter brings bob the seagull meat. the seagull meat is perfectly fine. 
-Bob takes a bite. Bob kills himself after taking the bite. bob and tom were exhausted. bob and tom had discussions. 
-tom knows bob would suicide. bob does not know lucy is dead. tom knows lucy is dead. 
-bob went to the restaurant to eat seagull, bob had this plan when he was on the island and nothing that happened changed bob's mind.
+A kind sailor saved Albert and Dave from an island and brought them to a pier with his boat. Now, they are sad and shocked. 
+Albert does not know lucy  is dead, Dave knows Lucy is dead. They go to a restaurant. Albert orders seagull meat. 
+The waiter brings Albert the seagull meat. Everything is ordinary. The seagull meat is perfectly fine and edible. 
+After Albert takes a bite, he realizes he had never eaten seagull meat before and because of that Albert kills himself. 
+Dave knew Albert would suicide, so he is not surpirsed. Other people at the restaurant were surprised. 
+Albert and Dave were exhausted. Albert and Dave had discussions.  Albert wanted to go to the restaurant 
+in order to eat seagull, Albert had this plan when he was on the island and nothing that happened changed Albert's mind.
 """.replace("\n","")
 
 boatcontest="""
-bob tom and lucy are having fun. they did not have any argument. what happened was not upon them. 
-there is a storm and the boat is wrecked. bob, tom, lucy cast away on an island. 
+Albert Dave and lucy are having fun. they did not have any argument. 
+what happened was not upon them. there is a storm and the boat is wrecked. Albert, Dave, lucy cast away on an island.  
 """.replace("\n","")
 
 general_islandcontest="""
-lucy dies in the shipwreck. bob and tom manage to survive. they are alone on the island. there is no one else on the island. there are 
-not dangerous animals. bob and tom do not have to fight to survive. there is no one else on the island. there is not much food.
-they resort to unconvential food sources. they did not have to fight. tom finds lucy's corpse. they manage to survive.
-tom is compelled to eat lucy. tom does not want to eat lucy. tom eats lucy. bob also eats lucy. because bob is blind, bob does not 
-know he is eating lucy. tom knows he is eating lucy. tom revolts while eating lucy. bob does not revolt while eating lucy. 
-tom tells bob he is eating seagull. bob thinks he is eating seagull. bob is suspicious. there is a sailor passing by. 
-the sailor saves bob and tom and brings them to a pier. the sailor is a good man. the sailor does not have ill intentions. 
-bob and tom are grateful to the sailor.bob does not know lucy is dead. tom knows lucy is dead.
+lucy dies in the shipwreck. Albert and Dave manage to survive. they are alone on the island. there is no one else on the island. 
+there are not dangerous animals. Albert and Dave do not have to fight to survive. there is no one else on the island. 
+there is not much food.they resort to unconvential food sources. they did not have to fight. Dave finds lucy's corpse. 
+they manage to survive.Dave is compelled to eat lucy. Dave does not want to eat lucy. Dave eats lucy. Albert also eats lucy. 
+because Albert is blind, Albert does not know he is eating lucy. Dave knows he is eating lucy. Dave revolts while eating lucy. 
+Albert does not revolt while eating lucy. Dave tells Albert he is eating seagull. Albert thinks he is eating seagull. 
+Albert is suspicious. there is a sailor passing by. the sailor saves Albert and Dave and brings them to a pier. 
+the sailor is a good man. the sailor does not have ill intentions. Albert and Dave are grateful to the sailor. 
+Albert does not know lucy is dead. Dave knows lucy is dead.
 """.replace("\n","")
 
 boat_discover="""
