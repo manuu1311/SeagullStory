@@ -36,7 +36,7 @@ User question ▶️ auxiliary model inference: did the user find any key fact?
 Yes ▶️ progress bar increases  
 No  ▶️ main model inference via API  
 ▶️ Answer(Yes,No,Doesn't matter)  
-  
+
   
 |                                                  |        |
 | -------------------------------------------------|:------:|  
