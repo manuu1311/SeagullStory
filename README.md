@@ -22,14 +22,18 @@ We reduced the problem to a NLI task. We used a BERT-like model fine-tuned on NL
 and use It with an API. This way, we want to be able to play It as a mobile app.  
 
 ## The model
-The model base is [DeBERTa-v3](https://huggingface.co/microsoft/deberta-v3-base). It has been fine-tuned on [multi-nli](https://huggingface.co/datasets/multi_nli), [anli](https://huggingface.co/datasets/anli), 
-[fever](https://huggingface.co/datasets/fever) datasets accessible on [🤗Hugging Face](https://huggingface.co/) and [finally our own dataset](https://github.com/manuu1311/SeagullStory/tree/main/Training_data).  
+The [model](https://huggingface.co/manuu01/DeBERTa-SeagullStory) is based on [DeBERTa-v3](https://huggingface.co/microsoft/deberta-v3-base). It has been fine-tuned on multiple NLI datasets and finally [our own dataset](https://github.com/manuu1311/SeagullStory/tree/main/Training_data).  
   
-Then, we used an auxiliary model based on [xtremedistil](https://huggingface.co/microsoft/xtremedistil-l6-h256-uncased).  
-This model will predict binary labels, "Yes" and "No". We will use this model in order to monitor user progress.  
+Then, we trained an auxiliary model based on [xtremedistil](https://huggingface.co/microsoft/xtremedistil-l6-h256-uncased).  
+This model will predict binary labels, "Yes" and "No". We will use this model in order to track user progress.  
 It has been fine tuned on several nli datasets where the "Neutral" and "Conctradiction" labels have been merged since the difference is irrelevant (with the weights being adjusted accordingly during training).  
 We want to deploy the model within the app, so it has been quantized and converted to tflite (the final size is 12.4 Mb).  
-  
+
+We will select several key facts about the story, then the question processing will look like this:  
+User question ▶️ auxiliary model inference: did the user find any key fact?  
+Yes ▶️ progress bar increases
+No  ▶️ main model inference via API  
+▶️ Answer(Yes,No,Doesn't matter)  
 
 |                                                  |        |
 | -------------------------------------------------|:------:|  
