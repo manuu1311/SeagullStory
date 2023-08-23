@@ -19,7 +19,7 @@ Example: Bob liked the restaurant
   
 ## How we approached the problem
 We reduced the problem to a NLI task. We used a BERT-like model fine-tuned on NLI datasets and finally our own dataset. Then, we want to deploy the model 
-and use It with an API. This way, we want to be able to play It as a github app, using a telegram bot and finally make It a mobile app.  
+and use It with an API. This way, we want to be able to play It as a mobile app.  
 
 ## The model
 The model base is [DeBERTa-v3](https://huggingface.co/microsoft/deberta-v3-base). It has been fine-tuned on [multi-nli](https://huggingface.co/datasets/multi_nli), [anli](https://huggingface.co/datasets/anli), 
