@@ -28,13 +28,15 @@ Then, we trained an auxiliary model based on [xtremedistil](https://huggingface.
 This model will predict binary labels, "Yes" and "No". We will use this model in order to track user progress.  
 It has been fine tuned on several nli datasets where the "Neutral" and "Conctradiction" labels have been merged since the difference is irrelevant (with the weights being adjusted accordingly during training).  
 We want to deploy the model within the app, so it has been quantized and converted to tflite (the final size is 12.4 Mb).  
-
+  
+## Answer processing
 We will select several key facts about the story, then the question processing will look like this:  
 User question ▶️ auxiliary model inference: did the user find any key fact?  
-Yes ▶️ progress bar increases
+Yes ▶️ progress bar increases  
 No  ▶️ main model inference via API  
 ▶️ Answer(Yes,No,Doesn't matter)  
-
+  
+  
 |                                                  |        |
 | -------------------------------------------------|:------:|  
 | Creating dataset based on our story              |   ✅    |  
