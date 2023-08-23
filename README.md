@@ -18,7 +18,7 @@ Example: Bob liked the restaurant
          --Answer: No  
   
 ## How we approached the problem
-We reduced the problem to a NLI task. We used a BERT-like model fine-tuned on NLI datasets and finally our own dataset. Then, we want to deploy the model 
+We reduced the problem to a NLI task. We want to use a BERT-like model fine-tuned on NLI datasets and finally our own dataset. Then, we want to deploy the model 
 and use It with an API. This way, we want to be able to play It as a mobile app.  
 
 ## The model
@@ -31,6 +31,7 @@ We want to deploy the model within the app, so it has been quantized and convert
   
 ## Answer processing
 We will select several key facts about the story, then the question processing will look like this:  
+  
 User question ▶️ auxiliary model inference: did the user find any key fact?  
 Yes ▶️ progress bar increases  
 No  ▶️ main model inference via API  
