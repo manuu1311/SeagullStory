@@ -29,7 +29,28 @@ loyal and really love each other, their love is true. Albert loves lucy. lucy lo
 Albert is blind. Albert is not religious. 
 the story is set in the early 900's. the story is completely plausible and does not involve anything not realistic.
 """.replace("\n","")
+'''
+A kind sailor saved Albert and Dave from an island and brought them to a pier with his boat. Now, they are sad and shocked. 
+Albert does not know lucy passed away, Dave knows Lucy passed away. They go to a restaurant. Albert orders seagull meat. 
+The waiter brings Albert the seagull meat. Everything is ordinary. The seagull meat is perfectly fine and edible. 
+After Albert takes a bite, he realizes he had never eaten seagull meat before and because of that Albert starts screaming. 
+Dave knew Albert would start screaming, so he is not surpirsed. Other people at the restaurant were surprised. 
+Albert and Dave were exhausted. Albert and Dave had discussions.  Albert wanted to go to the restaurant 
+in order to eat seagull, Albert had this plan when he was on the island and nothing that happened changed Albert's mind.
+'''
 
+"""
+inference:
+A compassionate sailor rescued Albert and Dave from an island, guiding them to a dock using his boat. Currently, they are feeling 
+sorrowful and stunned. Albert is unaware that Lucy has passed away, but Dave is fully aware of her demise. 
+They decide to visit a restaurant, where Albert proceeds to order seagull meat. The waiter promptly serves Albert with the 
+seagull meat, which turns out to be quite ordinary and palatable. Upon taking a bite, Albert suddenly realizes he has 
+never experienced seagull meat before, prompting him to start yelling. Dave, who had anticipated Albert's reaction, 
+remains unsurprised. Other diners at the restaurant are taken aback by Albert's outburst. Both Albert and Dave are 
+feeling fatigued. They engage in conversations and discussions. Albert's intention to dine on seagull meat remains 
+unaltered, as he had conceived this plan while they were on the island. Nothing that occurred subsequently has caused 
+Albert to change his mind.
+"""
 piercontest="""
 A kind sailor saved Albert and Dave from an island and brought them to a pier with his boat. Now, they are sad and shocked. 
 Albert does not know lucy  is dead, Dave knows Lucy is dead. They go to a restaurant. Albert orders seagull meat. 
