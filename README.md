@@ -39,9 +39,9 @@ We want to deploy the model within the app, so it has been quantized and convert
 | Deploy model as API                              |   ✅    |  
 | Convert auxiliary model to tflite                |   ✅    |  
 | Mobile app                                       |   🔲    |  
-  
-  
-  
-[This hugging face space](https://huggingface.co/spaces/manuu01/SeagullStory)] hosts a demo of the final model inference.
+    
+    
+    
+[This hugging face space](https://huggingface.co/spaces/manuu01/SeagullStory) hosts a demo of the final model inference.
 
 
