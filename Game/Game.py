@@ -1,11 +1,10 @@
 import pygame
 from sys import exit
-#from utils.model_predict import Model
+from utils.model_predict import Model
 from Screens.mainscreen import mainscreen
 
 #model
-#model=Model("Game/utils/Model/")
-model=None
+model=Model("Game/utils/Model/")
 
 pygame.init()
 pygame.display.set_caption("The seagull story")

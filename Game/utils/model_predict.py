@@ -1,8 +1,6 @@
-import tflite_runtime as tflite
+import tensorflow.lite as tflite
 from tokenizers import Tokenizer
-
-
-
+from numpy import array,int64
 class Model:
   def __init__(self,path):
         self.length=128     #max input length
@@ -16,13 +14,11 @@ class Model:
 
   def get_predict(self,passage,question):
     input=self.tokenizer.encode(passage,question)
-    padded_input_ids = input.ids + [0] * (self.length - len(input.ids))
-    padded_attention_mask = input.attention_mask + [0] * (self.length - len(input.attention_mask))
-    padded_token_type_ids=input.type_ids+[0]*(self.length-len(input.type_ids))
+    padded_input_ids = array(input.ids + [0] * (self.length - len(input.ids)),dtype=int64)
+    padded_attention_mask = array(input.attention_mask + [0] * (self.length - len(input.attention_mask)),dtype=int64)
+    padded_token_type_ids=array(input.type_ids+[0]*(self.length-len(input.type_ids)),dtype=int64)
     self.interpreter.set_tensor(self.input_details[0]['index'], [padded_attention_mask])
     self.interpreter.set_tensor(self.input_details[1]['index'], [padded_input_ids])
     self.interpreter.set_tensor(self.input_details[2]['index'],[padded_token_type_ids])
     self.interpreter.invoke()
     return self.interpreter.get_tensor(self.output_details[0]['index'])
-
-
