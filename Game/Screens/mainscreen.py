@@ -32,9 +32,10 @@ class mainscreen:
         #    QUESTION TEXT WIDGET
         self.font = pygame.font.Font(None, 32)
         self.input_box = pygame.Rect(100, 100, 300, 32)
-        self.input_box.centerx=self.WIDTH//2
-        self.question=''
-        self.text=''
+        #self.input_box.centerx=self.WIDTH//2
+        #self.question=''
+        #self.text=''
+        #self.response_coords=(80,195)
 
         #    SUBMIT BUTTON
         self.submit_box=pygame.Rect(100,150,90, 26)
@@ -42,7 +43,7 @@ class mainscreen:
         self.submit_text='Submit'
 
         #    ANSWER TEXT
-        self.response=''
+        #self.response=''
 
         #    BOTTOM BAR LOGOS
         r=40
@@ -70,13 +71,14 @@ class mainscreen:
         self.unklogo_surf=pygame.image.load(self.path+"unklogow.jpg")
         self.unklogo_surf = pygame.transform.smoothscale(self.unklogo_surf, (r,r))
         self.contest_flags=[True,True,False,False]
-        self.logo_surfaces=[self.generallogo_surf,self.pierlogo_surf,self.unklogo_surf, self.unklogo_surf]
 
+        self.logo_surfaces=[self.generallogo_surf,self.pierlogo_surf,self.unklogo_surf, self.unklogo_surf]
+        self.real_logo_surfaces=[self.generallogo_surf,self.pierlogo_surf,self.boatlogo_surf,self.islandlogo_surf]
         self.logos_rects=[self.generallogo_rect,self.pierlogo_rect,self.boatlogo_rect,self.islandlogo_rect]
 
         #    QUESTION STATE
-        self.unlock_phrase=None
-        self.unlock_questions=[None,None,"bob is good", "bob is blind"]
+        self.contest_question_state=0
+        self.unlock_questions=[None,None,"They went on a boat trip", "They castaway on an island"]
 
         self.close_surf=pygame.image.load(self.path+"closeicon.jpg").convert_alpha()
         self.close_surf = pygame.transform.smoothscale(self.close_surf, (25,25))
@@ -88,6 +90,8 @@ class mainscreen:
         self.question_font = pygame.font.Font(None, 38)
         self.question_font.italic=True
         self.question_font.bold=True
+
+        self.reset_state()
 
 
     def handle_events(self):
@@ -116,9 +120,13 @@ class mainscreen:
                                         if self.contest_flags[i]:
                                             self.contest=i
                                         else:
-                                            self.unlock_phrase=self.unlock_questions[i]
                                             self.question_flag=True
                                             self.prepare_question_state()
+                                            self.contest_question_state=i
+                        else:
+                            if self.close_rect.collidepoint(event.pos):
+                                self.question_flag=False
+                                self.reset_state()
 
 
 
@@ -138,17 +146,14 @@ class mainscreen:
             pygame.draw.rect(screen, self.GREEN, self.submit_box)
             submit_surface=self.font.render(self.submit_text,True,self.WHITE)
             screen.blit(submit_surface, (self.submit_box.x+5,self.submit_box.y+2))
-            #display answer
-            text = self.font.render(self.response, True, (0,0,0))
-            screen.blit(text, (80,195))
             #bottom bar
             #black rect
             pygame.draw.rect(screen,(0,0,0),(0,750,450,50))
             #logos
-            screen.blit(self.logo_surfaces[0],self.generallogo_rect)
-            screen.blit(self.logo_surfaces[1],self.pierlogo_rect)
-            screen.blit(self.logo_surfaces[2],self.boatlogo_rect)
-            screen.blit(self.logo_surfaces[3],self.islandlogo_rect)
+            for i, surf in enumerate(self.logo_surfaces):
+                screen.blit(surf,self.logos_rects[i])
+
+         
             screen.blit(self.characterslogo_surf, self.characterslogo_rect)
         else:
             #question state
@@ -161,24 +166,50 @@ class mainscreen:
             text_surface = self.font.render(self.text, True, self.BLACK)
             screen.blit(text_surface, (self.input_box.x+5, self.input_box.y+3))
         #always
+        #display answer
+        text = self.font.render(self.response, True, (0,0,0))
+        screen.blit(text, self.response_coords)
 
-    def answer(self):
-        res=self.model.get_predict("bob is blind", self.question)[0]
-        lblid=0
-        if res[1]>res[0]:
-            lblid=1
-        self.response=self.id2label[lblid]
+    def local_predict(self):
+        res=self.model.get_predict(self.unlock_questions[self.contest_question_state], self.question)[0]
+        return res[1]<res[0]
     
     def guess_onclick(self):
-        try:
-            self.answer()
-        except:
-            self.response='No'
+        if not self.question_flag:
+            try:
+                self.local_predict()
+            except:
+                self.response='No'
+        else:
+            try:
+                if self.local_predict():
+                    #TODO: popup message
+                    self.question_flag=False
+                    self.contest_flags[self.contest_question_state]=True
+                    self.contest=self.contest_question_state
+                    self.reset_state()
+                    self.response=''
+                    self.logo_surfaces[self.contest_question_state]=self.real_logo_surfaces[self.contest_question_state]
+            except:
+                self.response='No'
         self.question=''
         self.text=''
 
+
+    #unlock contest preparation
     def prepare_question_state(self):
         self.input_box.centerx=self.WIDTH//2
         self.input_box.centery=350
         self.question=''
         self.text=''
+        self.response_coords=(90,550) 
+        self.response=''
+    
+    #close question state
+    def reset_state(self):
+        self.input_box.top=100
+        self.input_box.centerx=self.WIDTH//2
+        self.response=''
+        self.question=''
+        self.text=''
+        self.response_coords=(80,195)
