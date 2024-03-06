@@ -1,14 +1,15 @@
 import pygame
 from sys import exit
-from utils.model_predict import Model
+#from utils.model_predict import Model
 from Screens.mainscreen import mainscreen
 
 #model
-model=Model("Game/utils/Model/")
+#model=Model("Game/utils/Model/")
+model=None
 
 pygame.init()
 pygame.display.set_caption("The seagull story")
-screensize=(449,800)
+screensize=(456,800)
 screen = pygame.display.set_mode(screensize)
 logo_path="Game/assets/logo.jpg"
 logo_surf=pygame.image.load(logo_path)
