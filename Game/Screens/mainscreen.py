@@ -2,7 +2,7 @@ import pygame
 
 class mainscreen:
     def __init__(self,width,height,model):
-        self.path='Game/assets/'
+        self.path='Game/assets/mainscreen/'
         self.id2label=['Yes','No']
         self.model=model
         self.WHITE=(255,255,255)
