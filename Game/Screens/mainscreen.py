@@ -1,15 +1,18 @@
 import pygame
+from utils.info_helper import info_helper,key_fact
 
 class mainscreen:
-    def __init__(self,width,height,model):
+    def __init__(self,width,height,model,info):
         self.path='Game/assets/mainscreen/'
         self.id2label=['Yes','No']
         self.model=model
+        self.info=info
         self.WHITE=(255,255,255)
         self.BLACK=(0,0,0)
         self.GREEN=(6,87,2)
         self.WIDTH=width
         self.HEIGHT=height
+        self.return_state=None
 
         #    STATE FLAG
         self.question_flag=False
@@ -23,8 +26,8 @@ class mainscreen:
         self.background_surf_island = pygame.transform.scale(self.background_surf_island, (self.WIDTH,self.HEIGHT))
         self.background_surf_general=pygame.image.load(self.path+"generalbackground.jpg").convert_alpha()
         self.background_surf_general = pygame.transform.scale(self.background_surf_general, (self.WIDTH,self.HEIGHT))
-        self.background_surfaces=[self.background_surf_general,self.background_surf_pier,self.background_surf_boat,self.background_surf_island]
-        self.contest=1
+        self.background_surfaces=[self.background_surf_boat,self.background_surf_island,self.background_surf_pier,self.background_surf_general]
+        self.contest=2
         self.background_rect=self.background_surf_pier.get_rect(topleft=(0,0))
         self.background_surf_quest=pygame.image.load(self.path+"questionbg.jpg").convert_alpha()
         self.background_surf_quest = pygame.transform.scale(self.background_surf_quest, (self.WIDTH,self.HEIGHT))
@@ -50,19 +53,19 @@ class mainscreen:
 
         self.generallogo_surf=pygame.image.load(self.path+"generallogo.jpg").convert_alpha()
         self.generallogo_surf = pygame.transform.smoothscale(self.generallogo_surf, (r,r))
-        self.generallogo_rect=self.generallogo_surf.get_rect(center=(57,775))
+        self.generallogo_rect=self.generallogo_surf.get_rect(center=(399,775))
         
         self.pierlogo_surf=pygame.image.load(self.path+"pierlogo.jpg").convert_alpha()
         self.pierlogo_surf = pygame.transform.smoothscale(self.pierlogo_surf, (r,r))
-        self.pierlogo_rect=self.pierlogo_surf.get_rect(center=(171,775))
+        self.pierlogo_rect=self.pierlogo_surf.get_rect(center=(285,775))
 
         self.boatlogo_surf=pygame.image.load(self.path+"boatlogo.jpg").convert_alpha()
         self.boatlogo_surf = pygame.transform.smoothscale(self.boatlogo_surf, (r,r))
-        self.boatlogo_rect=self.boatlogo_surf.get_rect(center=(285,775))
+        self.boatlogo_rect=self.boatlogo_surf.get_rect(center=(57,775))
 
         self.islandlogo_surf=pygame.image.load(self.path+"islandlogo.jpg").convert_alpha()
         self.islandlogo_surf = pygame.transform.smoothscale(self.islandlogo_surf, (r,r))
-        self.islandlogo_rect=self.islandlogo_surf.get_rect(center=(399,775))
+        self.islandlogo_rect=self.islandlogo_surf.get_rect(center=(171,775))
 
         self.characterslogo_surf=pygame.image.load(self.path+"characterslogo.jpg").convert_alpha()
         self.characterslogo_surf = pygame.transform.smoothscale(self.characterslogo_surf, (r*1.5,r*1.5))
@@ -70,15 +73,15 @@ class mainscreen:
 
         self.unklogo_surf=pygame.image.load(self.path+"unklogow.jpg")
         self.unklogo_surf = pygame.transform.smoothscale(self.unklogo_surf, (r,r))
-        self.contest_flags=[True,True,False,False]
+        self.contest_flags=self.info.contest_flags
 
-        self.logo_surfaces=[self.generallogo_surf,self.pierlogo_surf,self.unklogo_surf, self.unklogo_surf]
-        self.real_logo_surfaces=[self.generallogo_surf,self.pierlogo_surf,self.boatlogo_surf,self.islandlogo_surf]
-        self.logos_rects=[self.generallogo_rect,self.pierlogo_rect,self.boatlogo_rect,self.islandlogo_rect]
+        self.logo_surfaces=[self.unklogo_surf, self.unklogo_surf,self.pierlogo_surf,self.generallogo_surf]
+        self.real_logo_surfaces=[self.boatlogo_surf,self.islandlogo_surf,self.pierlogo_surf,self.generallogo_surf]
+        self.logos_rects=[self.boatlogo_rect,self.islandlogo_rect,self.pierlogo_rect,self.generallogo_rect]
 
         #    QUESTION STATE
         self.contest_question_state=0
-        self.unlock_questions=[None,None,"They went on a boat trip", "They castaway on an island"]
+        self.unlock_questions=info.unlockers
 
         self.close_surf=pygame.image.load(self.path+"closeicon.jpg").convert_alpha()
         self.close_surf = pygame.transform.smoothscale(self.close_surf, (25,25))
@@ -91,13 +94,17 @@ class mainscreen:
         self.question_font.italic=True
         self.question_font.bold=True
 
+        #key facts
+        self.facts=self.info.facts
+        self.facts_counter=self.count_facts()
+
         self.reset_state()
 
 
     def handle_events(self):
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
-                    return 'quit'
+                    self.return_state='quit'
                 #GET QUESTION FROM USER
                 elif event.type == pygame.KEYDOWN:
                     if event.key==pygame.K_RETURN:
@@ -132,7 +139,7 @@ class mainscreen:
 
     def update(self):
         # Update MainMenu
-        pass
+        return self.return_state
 
     def render(self, screen):
         if not self.question_flag:
@@ -213,3 +220,13 @@ class mainscreen:
         self.question=''
         self.text=''
         self.response_coords=(80,195)
+
+    def count_facts(self):
+        count=0
+        for fact in self.info.allfacts:
+            if fact.flag:
+                count+=1
+        for unlk in self.contest_flags:
+            if unlk:
+                count+=1
+        return count-2
