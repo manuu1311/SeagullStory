@@ -1,7 +1,8 @@
 class key_fact():
-    def __init__(self,flag,fact,trigger=False):
+    def __init__(self,flag,fact,text,trigger=False):
         self.flag=flag
         self.fact=fact
+        self.text=text
         #trigger popup flag
         self.trigger=trigger
 
@@ -44,20 +45,34 @@ class info_helper():
 
         ### FLAGS
         self.contest_flags=[False,False,True,True]
+        ### POPUP PHRASES
+        self.popupcontext_text=[["That's right!","They went on a boat trip"],["That's right!","They cast away on","a desert island"],[],[]]
+
         ### UNLOCK PHRASES
         self.unlockers=['Albert and Dave went on a boat trip','Albert and Dave cast away on an island',None,None]
         ### KEY FACTS
+        #popup text
+        albertgf_popup=["That's right!", "Albert has a girlfriend.", "From now on, you can refer","to her as Lucy"]
+        lucydead_popup=["That's right!", "Lucy is dead :("]
+        cannib_popup=["That's right!", "Unluckily they had to"]
+        sailor_popup=["That's right!", "A sailor saved them", "from the island"]
+        albertblind_popup=["That's right!","Albert is blind"]
         #pier
-        albertgf_fact=key_fact(False, "Albert has a girlfriend",True)
-        lucydead_fact=key_fact(False, "Lucy is dead")
+        albertgf_fact=key_fact(False, "Albert has a girlfriend",albertgf_popup,True)
+        lucydead_fact=key_fact(False, "Lucy is dead",lucydead_popup)
         #boat
         #none
         #island
-        cannib_fact=key_fact(False,"Albert ate Lucy")
-        sailor_fact=key_fact(False,"A sailor saves Albert")
+        cannib_fact=key_fact(False,"Albert ate Lucy",cannib_popup)
+        sailor_fact=key_fact(False,"A sailor saves them",sailor_popup)
         #general
-        albertblind_fact=key_fact(False,"Albert is blind")
+        albertblind_fact=key_fact(False,"Albert is blind",albertblind_popup)
+
         self.allfacts=[albertblind_fact,albertgf_fact,cannib_fact,sailor_fact,lucydead_fact]
-        self.facts=[[lucydead_fact,cannib_fact,sailor_fact],[],[albertgf_fact,lucydead_fact],[albertgf_fact,lucydead_fact,albertblind_fact]]
+        self.facts=[[],[lucydead_fact,cannib_fact,sailor_fact],[lucydead_fact],[albertgf_fact,lucydead_fact,albertblind_fact]]
+
+
+
+
 
     

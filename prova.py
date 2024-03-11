@@ -7,6 +7,14 @@ pygame.display.set_caption("The seagull story")
 screensize=(456,800)
 screen = pygame.display.set_mode(screensize)
 
+def DrawBar(pos, size, borderC, barC, progress, screen):
+    ysize=size[1]
+    pygame.draw.rect(screen, borderC, (*pos, *size), 1)
+    innerPos  = (pos[0]+3, (pos[1]-3)+ysize*(1-progress))
+    innerSize = ((size[0]-6), (ysize-6)*progress)
+    pygame.draw.rect(screen, barC, (*innerPos, *innerSize))
+
+
 #    BACKGROUND IMAGES
 pier_surf=pygame.image.load(path+"restaurant.jpg").convert_alpha()
 pier_surf = pygame.transform.scale(pier_surf, screensize)
@@ -25,6 +33,9 @@ font = pygame.font.Font(None, 36)  # Use default font with size 36
 text_lines = ["Text inside", "rectangle with", "multiple lines"]
 rendered_text = [font.render(line, True, (255, 255, 255)) for line in text_lines]
 
+length=400
+
+
 while True:
 
     for event in pygame.event.get():
@@ -34,13 +45,7 @@ while True:
         screen.fill((0,0,0))
     #background
     screen.blit(pier_surf,(0,0))
-    screen.blit(s,rect)
-    s.set_alpha(125)
-    for i, text in enumerate(rendered_text):
-        text.set_alpha(100)
-        border=40
-        text_rect = text.get_rect(center=(rect.centerx, rect.top + 30 + i * border))  # Adjust vertical position
-        screen.blit(text, (rect.x+3,rect.y+5+i*40))
+    DrawBar((380,150),(25,400),(0,0,0),(200,30,20),1/7,screen)
 
     clock.tick(60)
     pygame.display.update()
