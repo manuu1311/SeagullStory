@@ -1,5 +1,5 @@
 # SeagullStory
-Text based game where you have to unveil mystery surrounding Albert's death.
+Text based game where you have to unveil mystery surrounding Albert's death. Developed in pygame.
 ## The game 
 You are told the final part of a story. It does not make sense at first, but in the end you can be sure it will actually make sense.  
   
@@ -24,7 +24,7 @@ The game processing is powered by two LLMs: one for answering, one for tracking 
 ![](Game/assets/screen2.png)
 ![](Game/assets/screen3.png)
 ![](Game/assets/screen7.png)
-![](Game/assets/screen6.png)
 ![](Game/assets/screen5.png)
+![](Game/assets/screen6.png)
 ![](Game/assets/screen4.png)
 
