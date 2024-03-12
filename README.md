@@ -17,12 +17,14 @@ The story is breaken down into 3 different scenarios, each requiring unlocking b
 Simply clone the repository and execute "Game.py". You will need tensorflow installed on your machine.  
 
 ## How It works
-The game processing is powered by two LLMs: one for answering, one for tracking progress. You can find more technical details [here](model link)
+The game processing is powered by two LLMs: one for answering, one for tracking progress. You can find more technical details [here](https://github.com/manuu1311/SeagullStory/tree/main/Game/utils/Model)
 
 ## Screenshots
-    
-    
-    
-[This hugging face space](https://huggingface.co/spaces/manuu01/SeagullStory) hosts a demo of the final model inference.
-
+    https://github.com/manuu1311/SeagullStory/blob/main/Game/assets/screen1.png
+    https://github.com/manuu1311/SeagullStory/blob/main/Game/assets/screen2.png
+    https://github.com/manuu1311/SeagullStory/blob/main/Game/assets/screen3.png
+    https://github.com/manuu1311/SeagullStory/blob/main/Game/assets/screen4.png
+    https://github.com/manuu1311/SeagullStory/blob/main/Game/assets/screen5.png
+    https://github.com/manuu1311/SeagullStory/blob/main/Game/assets/screen6.png
+    https://github.com/manuu1311/SeagullStory/blob/main/Game/assets/screen7.png
 
