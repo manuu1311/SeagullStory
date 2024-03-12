@@ -1,6 +1,7 @@
 import pygame
 from sys import exit
 from utils.model_predict import Model
+from utils.api_predict import api_predict
 from Screens.mainscreen import mainscreen
 from Screens.tutorialscreen import tutorialscreen
 from Screens.characterscreen import characterscreen
@@ -10,6 +11,7 @@ from utils.info_helper import info_helper
 #model
 model=Model("Game/utils/Model/")
 #model=None
+api=api_predict()
 info=info_helper()
 
 pygame.init()
@@ -23,9 +25,9 @@ clock = pygame.time.Clock()
 
 
 tutscreen = tutorialscreen(*screensize) 
-mscreen=mainscreen(*screensize,model,info)
+mscreen=mainscreen(*screensize,model,api,info)
 charscreen=characterscreen(*screensize,model,info)
-winscreen=winscreen(*screensize)
+win=winscreen(*screensize)
 current_screen = tutscreen 
 
 #current_screen=winscreen
@@ -40,6 +42,8 @@ while True:
     elif screen_change=='characters':
         current_screen=charscreen
         current_screen.reset()
+    elif screen_change=='win':
+        current_screen=win
     elif screen_change == "quit":
         pygame.quit()
         exit()

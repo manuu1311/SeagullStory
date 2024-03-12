@@ -85,8 +85,12 @@ class characterscreen:
                                 self.response_state='win'
                                 return
                             else:
+                                self.question=''
+                                self.text=''
                                 self.response='No'
                         except:
+                            self.question=''
+                            self.text=''
                             self.response='No'
                     for i,rect in enumerate(self.rects):
                         if rect.collidepoint(event.pos):
@@ -96,14 +100,16 @@ class characterscreen:
                     if self.finalflag:
                         if event.key==pygame.K_RETURN:
                             try:
-                                self.question=''
-                                self.text=''
                                 if self.guess_onclick():
                                     self.response_state='win'
                                     return
                                 else:
+                                    self.question=''
+                                    self.text=''
                                     self.response='No'
                             except:
+                                self.question=''
+                                self.text=''
                                 self.response='No'                            
                         elif event.key==pygame.K_BACKSPACE:
                             self.question=self.question[:-1]
@@ -164,20 +170,25 @@ class characterscreen:
         
     def guess_onclick(self):
         res=self.model.get_predict('Albert realized he ate Lucy', self.question)[0]
-        return res[1]<res[0]
+        answer=res[1]<res[0]
+        return answer
         
     def reset(self):
         #people
         if self.info.allfacts[0].flag:
-            if self.info.allfacts[4]:
-                albertpath='alblindsad.png'
-            elif self.info.allfacts[1].flag:
-                albertpath='alblindhappy.png'
+            if self.info.allfacts[1].flag:
+                if self.info.allfacts[4].flag:
+                    albertpath='alblindsad.png'
+                else:
+                    albertpath='alblindhappy.png'
             else:
                 albertpath='alblind.png'
         else:
-            if self.info.allfacts[4].flag:
-                albertpath='albsad.png'
+            if self.info.allfacts[1].flag:
+                if self.info.allfacts[4].flag:
+                    albertpath='albsad.png'
+                else:
+                    albertpath='albhappy.png'
             else:
                 albertpath='albert.png'
 
@@ -221,15 +232,15 @@ class characterscreen:
         self.rects=[self.albert_rect,self.dave_rect,self.waiter_rect,self.lucy_rect,self.sailor_rect]
         
         #notes for each character
-        albertnotes=[]
-        lucynotes=[]
+        albertnotes=['Albert']
+        lucynotes=['Lucy']
         if self.info.allfacts[0].flag:
             albertnotes.append('Is blind')
         if self.info.allfacts[1].flag:
             albertnotes.append('Has a girlfriend, Lucy')
-        if self.info.allfacts[1].flag:
+        if self.info.allfacts[4].flag:
             lucynotes=[('Is dead')]
-        self.character_prints=[albertnotes,[],[],lucynotes,[]]
+        self.character_prints=[albertnotes,['Dave'],['Waiter'],lucynotes,['Sailor']]
 
         #which character am i focusing on?
         self.character=0
@@ -241,7 +252,7 @@ class characterscreen:
         boatxt,islandtxt,alblind,albgf,cannib,lucydead,sailorsave=elsetxt,elsetxt,elsetxt,elsetxt,elsetxt,elsetxt,elsetxt
         if self.info.contest_flags[0]:
             boatxt=['Albert and Dave went on a boat trip']
-        if self.info.contest_flags[0]:
+        if self.info.contest_flags[1]:
             islandtxt=['Albert and Dave cast away','on a desert island']
         if self.info.allfacts[0].flag:
             alblind=['Albert is blind']

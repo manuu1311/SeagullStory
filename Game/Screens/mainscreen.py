@@ -2,10 +2,12 @@ import pygame
 from utils.info_helper import info_helper,key_fact
 
 class mainscreen:
-    def __init__(self,width,height,model,info):
+    def __init__(self,width,height,model,api,info):
         self.path='Game/assets/mainscreen/'
         self.id2label=['Yes','No']
         self.model=model
+        self.api=api
+        self.contest_map=['Boat','Island','Pier','General']
         self.info=info
         self.WHITE=(255,255,255)
         self.BLACK=(0,0,0)
@@ -222,9 +224,9 @@ class mainscreen:
                         self.facts_counter=self.count_facts()
                         return
             try:
-                self.local_predict()
+                self.response=self.api.predict(self.question,self.contest_map[self.contest])
             except:
-                self.response='No'
+                self.response='Nope'
         else:
             try:
                 if self.local_predict(self.unlock_questions[self.contest_question_state], self.question):
