@@ -20,11 +20,11 @@ Simply clone the repository and execute "Game.py". You will need tensorflow inst
 The game processing is powered by two LLMs: one for answering, one for tracking progress. You can find more technical details [here](https://github.com/manuu1311/SeagullStory/tree/main/Game/utils/Model)
 
 ## Screenshots
-![Intro](Game/assets/screen1.png)
-(https://github.com/manuu1311/SeagullStory/blob/main/Game/assets/screen2.png)
-    (https://github.com/manuu1311/SeagullStory/blob/main/Game/assets/screen3.png)
-    (https://github.com/manuu1311/SeagullStory/blob/main/Game/assets/screen4.png)
-    (https://github.com/manuu1311/SeagullStory/blob/main/Game/assets/screen5.png)
-    (https://github.com/manuu1311/SeagullStory/blob/main/Game/assets/screen6.png)
-    (https://github.com/manuu1311/SeagullStory/blob/main/Game/assets/screen7.png)
+![](Game/assets/screen1.png)
+![](Game/assets/screen2.png)
+![](Game/assets/screen3.png)
+![](Game/assets/screen4.png)
+![](Game/assets/screen5.png)
+![](Game/assets/screen6.png)
+![](Game/assets/screen7.png)
 
