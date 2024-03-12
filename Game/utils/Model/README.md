@@ -1,5 +1,5 @@
 ## How we approached the problem
-I reduced the problem to a NLI task. I use two BERT-like models. The primary one is the larger, while the other is used as a utility for tracking user progress. Both are trained on appropriate datasets, as well as my own specific to this story.  I deployed the bigger model as an API (thanks to [HuggingFace](https://huggingface.co/) spaces), the other is deployed locally. For that reason, the latter has been quantized and converted to tflite, the final size is 12.4Mb.
+I reduced the problem to a NLI task and used two BERT-like models. The primary one is larger, while the other is used as a utility for tracking user progress. Both are trained on appropriate datasets, as well as my own specific to this story.  I deployed the bigger model as an API (thanks to [HuggingFace](https://huggingface.co/) spaces), the other is deployed locally. For that reason, the latter has been quantized and converted to tflite, the final size is 12.4Mb.
 
 ## The model
 The [bigger model](https://huggingface.co/manuu01/DeBERTa-SeagullStory) is based on [DeBERTa-v3](https://huggingface.co/microsoft/deberta-v3-base), while the auxiliary model is based on [xtremedistil-l6-h256](https://huggingface.co/microsoft/xtremedistil-l6-h256-uncased).  
