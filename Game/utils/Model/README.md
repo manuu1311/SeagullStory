@@ -3,7 +3,7 @@ I reduced the problem to a NLI task and used two BERT-like models. The primary o
 
 ## The model
 The [bigger model](https://huggingface.co/manuu01/DeBERTa-SeagullStory) is based on [DeBERTa-v3](https://huggingface.co/microsoft/deberta-v3-base), while the auxiliary model is based on [xtremedistil-l6-h256](https://huggingface.co/microsoft/xtremedistil-l6-h256-uncased).  
-This model predicts binary labels, "Yes" and "No". This model is used to track user progress and to enable unlocking new scenarios. It has been fine-tuned on several datasets where the "Neutral" and "Conctradiction" labels have been merged since the difference is irrelevant (with the weights being adjusted accordingly during training).
+This model predicts binary labels, "Yes" and "No". It is used to track user progress and to enable unlocking new scenarios. It has been fine-tuned on several datasets where the "Neutral" and "Conctradiction" labels have been merged since the difference is irrelevant (with the weights being adjusted accordingly during training).
   
 ## Answer processing
 We defined several key facts for progression and for unlocking new scenarios.
