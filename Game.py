@@ -1,17 +1,18 @@
 import pygame
 from sys import exit
-from utils.model_predict import Model
-from utils.api_predict import api_predict
-from Screens.mainscreen import mainscreen
-from Screens.tutorialscreen import tutorialscreen
-from Screens.characterscreen import characterscreen
-from Screens.winscreen import winscreen
-from utils.info_helper import info_helper
+from Game.utils.api_predict import api_predict
+from Game.utils.model_predict import Model
+from Game.Screens.mainscreen import mainscreen
+from Game.Screens.tutorialscreen import tutorialscreen
+from Game.Screens.characterscreen import characterscreen
+from Game.Screens.winscreen import winscreen
+from Game.utils.info_helper import info_helper
 
 #model
 model=Model("Game/utils/Model/")
 #model=None
 api=api_predict()
+#api=None
 info=info_helper()
 
 pygame.init()

@@ -1,11 +1,12 @@
-import tensorflow.lite as tflite
+from Game.utils.tflite.interpreter import Interpreter
 from tokenizers import Tokenizer
 from numpy import array,int64
+
 class Model:
   def __init__(self,path):
         self.length=128     #max input length
         self.tokenizer=Tokenizer.from_file(path+"tokenizer.json")
-        self.interpreter = tflite.Interpreter(model_path=path+"model.tflite")
+        self.interpreter = Interpreter(model_path=path+"model.tflite")
         self.interpreter.allocate_tensors()
         self.input_details = self.interpreter.get_input_details()
         self.output_details = self.interpreter.get_output_details()

@@ -1,5 +1,5 @@
 import pygame
-from utils.info_helper import info_helper,key_fact
+from Game.utils.info_helper import info_helper,key_fact
 
 class mainscreen:
     def __init__(self,width,height,model,api,info):
