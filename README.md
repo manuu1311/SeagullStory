@@ -23,8 +23,8 @@ The game processing is powered by two LLMs: one for answering, one for tracking 
 ![](Game/assets/screen1.png)
 ![](Game/assets/screen2.png)
 ![](Game/assets/screen3.png)
-![](Game/assets/screen4.png)
-![](Game/assets/screen5.png)
-![](Game/assets/screen6.png)
 ![](Game/assets/screen7.png)
+![](Game/assets/screen6.png)
+![](Game/assets/screen5.png)
+![](Game/assets/screen4.png)
 
