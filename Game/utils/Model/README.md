@@ -6,7 +6,7 @@ The [bigger model](https://huggingface.co/manuu01/DeBERTa-SeagullStory) is based
 This model predicts binary labels, "Yes" and "No". It is used to track user progress and to enable unlocking new scenarios. It has been fine-tuned on several datasets where the "Neutral" and "Conctradiction" labels have been merged since the difference is irrelevant (with the weights being adjusted accordingly during training).
   
 ## Answer processing
-We defined several key facts for progression and for unlocking new scenarios.
+I defined several key facts for progression and for unlocking new scenarios.
 Both the models accept a passage and a question, then, they output the predicted label. For the local model, the user question is used as 'passage', while each key fact  is used as 'question' (which is equivalent to asking: 'does the user question entail the key fact? If so, It means he found out about It). 
 In the main model, instead, the passage is a thorough description of what happens in a specific scenario, and the question is of course the user's.  
 
