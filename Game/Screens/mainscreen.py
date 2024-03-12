@@ -130,7 +130,9 @@ class mainscreen:
                 #check for click
                 elif event.type == pygame.MOUSEBUTTONDOWN:
                     if event.button == 1:
-                        if self.popup_flag:
+                        if self.characterslogo_rect.collidepoint(event.pos):
+                            self.return_state='characters'
+                        elif self.popup_flag:
                             if self.popup_rect.collidepoint(event.pos):
                                 self.popup_flag=False
                         if not self.question_flag:
@@ -262,6 +264,7 @@ class mainscreen:
         self.text=''
         self.response_coords=(80,195)
         self.popup_flag=False
+        self.return_state=None
 
     def count_facts(self):
         count=0

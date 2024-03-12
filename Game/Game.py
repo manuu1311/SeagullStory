@@ -3,6 +3,7 @@ from sys import exit
 #from utils.model_predict import Model
 from Screens.mainscreen import mainscreen
 from Screens.tutorialscreen import tutorialscreen
+from Screens.characterscreen import characterscreen
 from utils.info_helper import info_helper
 
 #model
@@ -20,20 +21,24 @@ pygame.display.set_icon(logo_surf)
 clock = pygame.time.Clock()
 
 
-#current_screen = tutorialscreen(*screensize) 
-current_screen = mainscreen(*screensize,model,info) 
+tutscreen = tutorialscreen(*screensize) 
+mscreen=mainscreen(*screensize,model,info)
+charscreen=characterscreen(*screensize,model,info)
+current_screen = tutscreen 
+
+current_screen=charscreen
 
 while True:
     current_screen.handle_events()
-
-    # Switch screens based on return value from handle_events
+  # Switch screens based on return value from handle_events
     screen_change = current_screen.update()
     if screen_change=='mainscreen':
-        current_screen=mainscreen(*screensize,model,info)
+        current_screen=mscreen
+    elif screen_change=='characters':
+        current_screen=charscreen
     elif screen_change == "quit":
         pygame.quit()
         exit()
-        
     current_screen.render(screen)
     clock.tick(60)
     pygame.display.update()
