@@ -142,7 +142,7 @@ class characterscreen:
                     for j,note in enumerate(text):
                         text=self.font.render(note,True,(0,0,0))
                         screen.blit(text,(30,offset))
-                        offset+=15
+                        offset+=22
             screen.blit(self.closebutton_surf,self.closebutton_rect)
 
         screen.blit(self.backbutton_surf,self.backbutton_rect)
@@ -257,7 +257,7 @@ class characterscreen:
         if self.info.allfacts[0].flag:
             alblind=['Albert is blind']
         if self.info.allfacts[1].flag:
-            albgf=['Albert has a girlfriend, Lucy']
+            albgf=['Albert has a girlfriend,','you can refer to her as Lucy']
         if self.info.allfacts[2].flag:
             cannib=['Albert and Dave resorted to','cannibalism in order to survive']
         if self.info.allfacts[3].flag:

@@ -12,7 +12,6 @@ from Game.utils.info_helper import info_helper
 model=Model("Game/utils/Model/")
 #model=None
 api=api_predict()
-#api=None
 info=info_helper()
 
 pygame.init()

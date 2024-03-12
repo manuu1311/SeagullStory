@@ -27,7 +27,7 @@ if not os.path.splitext(__file__)[0].endswith(
   # This file is part of tensorflow package.
   import Game.utils.tflite.interpreter_wrapper._pywrap_tensorflow_interpreter_wrapper as _interpreter_wrapper
   #from Game.utils.tflite.metrics import metrics
-  from Game.utils.tflite import tf_export as _tf_export
+  #from Game.utils.tflite import tf_export as _tf_export
 
   def _tf_export(*x, **kwargs):
     del x, kwargs
