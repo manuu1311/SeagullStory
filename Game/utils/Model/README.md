@@ -1,4 +1,4 @@
-## How we approached the problem
+## How I approached the problem
 I reduced the problem to a NLI task and used two BERT-like models. The primary one is larger, while the other is used as a utility for tracking user progress. Both are trained on appropriate datasets, as well as my own specific to this story.  I deployed the bigger model as an API (thanks to [HuggingFace](https://huggingface.co/) spaces), the other is deployed locally. For that reason, the latter has been quantized and converted to tflite, achieving the final size of 12.4Mb.
 
 ## The model
