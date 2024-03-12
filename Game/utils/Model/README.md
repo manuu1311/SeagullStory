@@ -13,6 +13,5 @@ In the main model, instead, the passage is a thorough description of what happen
 Ultimately, when the user asks a question in a scenario, this is what happens:
 User question   
 ▶️ auxiliary model inference: for each key fact, did the user find out about It?  
-Yes ▶️ popup message for the user, for guidance, progress bar increases  
-No  ▶️ main model inference via API  
-▶️ Answer(Yes,No,Doesn't matter)  
+Yes ▶️ popup message to the user, for guidance, progress bar increases  
+No  ▶️ main model inference via API ▶️ Answer(Yes,No,Doesn't matter)  
