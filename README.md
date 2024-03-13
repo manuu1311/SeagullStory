@@ -26,7 +26,7 @@ The game processing is powered by two LLMs: one for answering, and one for track
 <img src="Game/assets/screen3.png" width="260rem">
 <img src="Game/assets/screen7.png" width="260rem">
 <img src="Game/assets/screen5.png" width="260rem">
-<img src="Game/assets/screen6.png" width="260rem">
+<img src="Game/assets/screen10.png" width="260rem">
 <img src="Game/assets/screen4.png" width="260rem">
 </div>
 
