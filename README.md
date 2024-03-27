@@ -1,7 +1,7 @@
 # SeagullStory
 A text-based game where you have to unveil the mystery surrounding Albert's death. Developed in pygame.
 ## The game 
-You are told the final part of a story. It does not make sense at first, but in the end you can be sure it will actually make sense.  
+You are told the final part of a story. It does not make sense at first, but in the end you can be sure it'll all come together.  
   
 You can ask boolean questions to which you will receive one of the following answers: 
   
