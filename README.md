@@ -7,7 +7,7 @@ You can ask boolean questions to which you will receive one of the following ans
   
 "Yes" if it is true  
 "No" if it is not true  
-"Doesn't matter" if what you're asking is not important to understand the whole story.  
+"Doesn't matter" if what you're asking is not relevant to understand the whole story.  
 
 Your goal is to find out about the rest of the story. To win the game, you have to explain the reasons behind Albert's death.  
 
