@@ -5,28 +5,28 @@ This document details how the game's mechanics were reduced to a Machine Learnin
 ## 🏗️ The Hybrid Dual-Model System
 
 To optimize performance and latency, the game splits processing between a heavy cloud-based model and a lightweight local model.  
-                    [ User Question ]
-                             │
-                             ▼
-        ┌──────────────────────────────┐
-        │  Auxiliary Model (Local)     │
-        │  Checks hidden key facts     │
-        └──────────────┬───────────────┘
-                       │
-                       ▼
-        Did the user uncover a key fact?
-                 │
-        ┌────────┴────────┐
-        │                 │
-      YES                NO
-        │                 │
-        ▼                 ▼
-┌────────────────┐   ┌──────────────────────────────┐
-│ Update Progress│   │   Main Oracle (Cloud API)   │
-│ Bar + UI Popup │   │ Returns: Yes / No / Ignore  │
-└────────────────┘   └──────────────┬───────────────┘
-                                    │
-                                    ▼
+                    [ User Question ]  
+                             │  
+                             ▼  
+        ┌──────────────────────────────┐  
+        │  Auxiliary Model (Local)     │  
+        │  Checks hidden key facts     │  
+        └──────────────┬───────────────┘  
+                       │  
+                       ▼  
+        Did the user uncover a key fact?  
+                 │  
+        ┌────────┴────────┐  
+        │                 │  
+      YES                NO  
+        │                 │  
+        ▼                 ▼  
+┌────────────────┐   ┌──────────────────────────────┐  
+│ Update Progress│   │   Main Oracle (Cloud API)   │  
+│ Bar + UI Popup │   │ Returns: Yes / No / Ignore  │  
+└────────────────┘   └──────────────┬───────────────┘  
+                                    │  
+                                    ▼  
                            [ Final Response ]   
                            
 ### 1. The Main Oracle (Cloud)
