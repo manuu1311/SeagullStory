@@ -29,7 +29,7 @@ To optimize performance and latency, the game splits processing between a heavy 
                                     │
                                     ▼
                            [ Final Response ]
-<pre>
+</pre>
   
 ### 1. The Main Oracle (Cloud)
 *   **Base Model:** [DeBERTa-v3-base](https://huggingface.co/microsoft/deberta-v3-base)
