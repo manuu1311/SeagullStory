@@ -6,29 +6,29 @@ This document details how the game's mechanics were reduced to a Machine Learnin
 
 To optimize performance and latency, the game splits processing between a heavy cloud-based model and a lightweight local model.  
 <pre>
-                    [ User Question ]
-                             │
-                             ▼
-        ┌──────────────────────────────┐
-        │  Auxiliary Model (Local)     │
-        │  Checks hidden key facts     │
-        └──────────────┬───────────────┘
-                       │
-                       ▼
-        Did the user uncover a key fact?
-                 │
-        ┌────────┴────────┐
-        │                 │
-      YES                NO
-        │                 │
-        ▼                 ▼
-┌────────────────┐   ┌──────────────────────────────────────┐
-│ Update Progress│   │       Main Model Inference           │
-│ Bar + UI Popup │   │ (Cloud API → Yes/No/Doesn't matter)  │
-└────────────────┘   └──────────────┬───────────────────────┘
-                                    │
-                                    ▼
-                           [ Final Response ]
+                                        [ User Question ]
+                                                 │
+                                                 ▼
+                                  ┌──────────────────────────────┐
+                                  │  Auxiliary Model (Local)     │
+                                  │  Checks hidden key facts     │
+                                  └──────────────┬───────────────┘
+                                                 │
+                                                 ▼
+                                  Did the user uncover a key fact?
+                                                 │
+                                        ┌────────┴────────┐
+                                        │                 │
+                                      YES                NO
+                                        │                 │
+                                        ▼                 ▼
+                                ┌────────────────┐   ┌──────────────────────────────────────┐
+                                │ Update Progress│   │       Main Model Inference           │
+                                │ Bar + UI Popup │   │ (Cloud API → Yes/No/Doesn't matter)  │
+                                └────────────────┘   └──────────────┬───────────────────────┘
+                                                                    │
+                                                                    ▼
+                                                           [ Final Response ]
 </pre>
   
 ### 1. The Main Oracle (Cloud)
