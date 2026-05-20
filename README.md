@@ -1,23 +1,44 @@
-# SeagullStory
-A text-based game where you have to unveil the mystery surrounding Albert's death. Developed in pygame.
-## The game 
-You are told the final part of a story. It does not make sense at first, but in the end you can be sure it'll all come together.  
-  
-You can ask boolean questions to which you will receive one of the following answers: 
-  
-"Yes" if it is true  
-"No" if it is not true  
-"Doesn't matter" if what you're asking is not relevant to understand the whole story.  
+# 🌊 SeagullStory: AI-Driven Lateral Thinking Game
 
-Your goal is to find out about the rest of the story. To win the game, you have to explain the reasons behind Albert's death.  
+[![DeBERTa-v3](https://img.shields.io/badge/Model-DeBERTa--v3-blue.svg)](https://huggingface.co/manuu01/DeBERTa-SeagullStory)
+[![Pygame](https://img.shields.io/badge/UI-Pygame-green.svg)](https://pygame.org/)
+[![TensorFlow Lite](https://img.shields.io/badge/Local%20Inference-TFLite%20%2812.4MB%29-orange.svg)](https://www.tensorflow.org/lite)
 
-The story is broken down into 3 different scenarios, each requiring unlocking before you can ask about Its events. Additionally, there are key facts scattered among these scenarios, that will be used for guidance and to track your progress.
+Can you solve the mystery of Albert's sudden death? **SeagullStory** is a text-based detective game built in Pygame, powered by advanced Natural Language Processing (NLP) models. 
 
-## How to play  
-Clone the repository and execute "Game.py". You will need Tensorflow installed on your machine.  
+It is powered by a custom dual-LLM system to understand the true semantic meaning behind any boolean (Yes/No) question you ask, as well as guiding you through the story with hints and unlocking scenarios.
 
-## How It works
-The game processing is powered by two LLMs: one for answering, and one for tracking progress. You can find more technical details [here](https://github.com/manuu1311/SeagullStory/tree/main/Game/utils/Model)
+---
+
+## 🛠️ Tech Stack & Advanced Architecture
+This project uses a hybrid **Cloud API + Edge AI** architecture:
+
+*   **Primary Model (Cloud API):** Powered by a **DeBERTa-v3** model fine-tuned on a custom dataset and hosted on Hugging Face Spaces. It processes complex scenario data to accurately answer user questions with "Yes", "No", or "Doesn't matter".
+*   **Progress Tracker (Local Edge AI):** Powered by a highly compressed, quantized **xtremedistil** model converted to **TensorFlow Lite (TFLite)**. Weighing only **12.4MB**, this local model tracks player progress in real-time and gives hints.
+*   **The NLI Trick:** Progression tracking is framed as a Natural Language Inference (NLI) task. The system checks if the user's question *entails* hidden key facts, dynamically unlocking new story scenarios as you get closer the truth.
+*   
+> 💡 **For more technical details** 
+> Read the full [Technical Architecture & Model Training procedure](./Game/utils/Model).
+---
+
+## 🎮 The Game Mechanics
+You are given the cryptic final paragraph of a story. To win, you must reconstruct the events leading up to Albert's death by asking natural language questions.  
+The AI will respond with:
+*   **"Yes"** — if your hypothesis is true in the scenario.
+*   **"No"** — if it is false.
+*   **"Doesn't matter"** — if your question is irrelevant to the story.
+
+The story is broken down into **3 distinct, unlockable scenarios**. Discovering key facts in one scenario will allow you to progress and grant you access to the next scenario.
+
+---
+
+## ⚡ Quick Start
+
+### Prerequisites
+Make sure you have Python installed, along with TensorFlow (required for the local TFLite progress tracker) and Pygame.
+
+### Installation
+Clone the repository and run Game.py
 
 ## Screenshots
 <div>
