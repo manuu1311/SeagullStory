@@ -31,7 +31,7 @@ To optimize performance and latency, the game splits processing between a heavy 
                                                            [ Final Response ]
 </pre>
   
-### 1. The Main Oracle (Cloud)
+### 1. The Main Model (Cloud)
 *   **Base Model:** [DeBERTa-v3-base](https://huggingface.co/microsoft/deberta-v3-base)
 *   **Deployment:** Hosted as an API via [Hugging Face Spaces](https://huggingface.co/).
 *   **Function:** This is the main model that powers the question answering. It accepts a thorough, secret description of a scenario as the *passage*, and the player's text input as the *question*, predicting whether the statement holds true.
