@@ -13,8 +13,8 @@ It is powered by a custom dual-LLM system to understand and answer any boolean (
 ## 🛠️ Architecture
 This project uses a hybrid **Cloud API + Edge AI** architecture:
 
-*   **Primary Model (Cloud API):** Powered by a **DeBERTa-v3** model fine-tuned on a custom dataset and hosted on Hugging Face Spaces. It processes complex scenario data to accurately answer user questions with "Yes", "No", or "Doesn't matter".
-*   **Progress Tracker (Local Edge AI):** Powered by a highly compressed, quantized **xtremedistil** model converted to **TensorFlow Lite (TFLite)**. Weighing only **12.4MB**, this local model tracks player progress in real-time and gives hints.
+*   **Primary Model (Cloud API):** Powered by a **DeBERTa-v3** model fine-tuned on a custom dataset relative to this story and hosted on Hugging Face Spaces. It accurately answers user questions with "Yes", "No", or "Doesn't matter".  
+*   **Progress Tracker (Local Edge AI):** Powered by a highly compressed, quantized **xtremedistil** model converted to **TensorFlow Lite (TFLite)**. Weighing only **12.4MB**, this local model tracks player progress in real-time and allows player hints.
 *   **The NLI Trick:** Progression tracking is framed as a Natural Language Inference (NLI) task. The system checks if the user's question *entails* hidden key facts, dynamically unlocking new story scenarios as you get closer the truth.
 *   
 > 💡 **For more technical details** 
