@@ -17,7 +17,7 @@ This project uses a hybrid **Cloud API + Edge AI** architecture:
 *   **Progress Tracker (Local Edge AI):** Powered by a highly compressed, quantized **xtremedistil** model converted to **TensorFlow Lite (TFLite)**. Weighing only **12.4MB**, this local model tracks player progress in real-time and allows player hints.
 *   **The NLI Trick:** Progression tracking is framed as a Natural Language Inference (NLI) task. The system checks if the user's question *entails* hidden key facts, dynamically unlocking new story scenarios as you get closer the truth.
 *   
-> 💡 **For more technical details** 
+> 💡 **For more technical details**  
 > Read the full [Technical Architecture & Model Training procedure](./Game/utils/Model).
 ---
 
