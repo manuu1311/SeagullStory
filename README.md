@@ -4,7 +4,8 @@
 [![Pygame](https://img.shields.io/badge/UI-Pygame-green.svg)](https://pygame.org/)
 [![TensorFlow Lite](https://img.shields.io/badge/Local%20Inference-TFLite%20%2812.4MB%29-orange.svg)](https://www.tensorflow.org/lite)
 
-Can you solve the mystery of Albert's death? **SeagullStory** is a text-based detective game built in Pygame, powered by advanced Natural Language Processing (NLP) models. 
+Can you solve the mystery of Albert's death? **SeagullStory** is a text-based detective game built using Pygame, powered by advanced Natural Language Processing (NLP) models. The game is based on the famous lateral thinking puzzle: a man orders seagull soup, takes one bite, and immediately ends his life. Players can type natural language questions to uncover the truth.
+
 
 It is powered by a custom dual-LLM system to understand and answer any boolean (Yes/No) question you ask, as well as to guide you through the story with hints and unlocking scenarios.
 
