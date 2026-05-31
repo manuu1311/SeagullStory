@@ -41,7 +41,14 @@ Make sure you have Python installed, along with TensorFlow (required for the loc
 ### Installation
 Clone the repository and run Game.py
 
-## Screenshots
+## Game
+
+
+
+https://github.com/user-attachments/assets/972ce3df-23fe-474e-8c84-6313e38a05e9
+
+---
+
 <div>
 <img src="Game/assets/screen1.png" width="260rem">
 <img src="Game/assets/screen2.png" width="260rem">
